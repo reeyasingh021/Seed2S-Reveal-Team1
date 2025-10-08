@@ -6,8 +6,10 @@ files = ["data1.csv", "data2.csv", "data3.csv"]
 dfs = [pd.read_csv(f) for f in files]
 merged_df = pd.concat(dfs, ignore_index = True)
 
-merged_df.to_csv("merged_data.csv", index = False)
+remove = ["Bhutan", "Maldives"]
+merged_df = merged_df[~merged_df["Countries"].isin(remove)]
 
+merged_df.to_csv("merged_data.csv", index = False)
 
 
 
@@ -40,6 +42,21 @@ def classify_commodity(commodity):
 merged_df["CategoryType"] = merged_df["Commodities"].apply(classify_commodity)
 
 print(merged_df.isna().sum())
+
+print(merged_df["Countries"].unique())
+
+organizations = ["Asia - South", "APEC - Asia Pacific Economic Co-operation", "ASEAN - Association of Southeast Asian Nations"]
+filtered_regions_df = merged_df[merged_df["Countries"].isin(organizations)]
+filtered_regions_df.to_csv("filtered_regions.csv", index = False)
+
+
+southeast = ["Singapore", "Indonesia", "Vietnam", "Philippines", "Brunei", "Malaysia", "Thailand", "Cambodia", "Laos", "Burma"]
+southeast_countries_df = merged_df[merged_df["Countries"].isin(southeast)]
+southeast_countries_df.to_csv("southeast_countries.csv", index = False)
+
+east = ["Taiwan", "Korea, South", "Hong Kong", "Japan", "Macau", "Mongolia"]
+east_countries_df = merged_df[merged_df["Countries"].isin(east)]
+east_countries_df.to_csv("east_countries.csv", index = False)
 
 # Total imports per year
 imports_by_year = merged_df.groupby("Time")["Customs Value (Gen) ($US) (Default Member)"].sum()
