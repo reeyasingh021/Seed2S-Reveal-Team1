@@ -1462,7 +1462,7 @@ Commodities,Countries,Time,Customs Value (Gen) ($US) (Default Member),Customs Va
 80 Tin And Articles Thereof,Asia - South,2024,1298432,1298432.0,Refined/Articles
 75 Nickel And Articles Thereof,Asia - South,2022,18805878,18951463.0,Refined/Articles
 75 Nickel And Articles Thereof,Asia - South,2024,37511000,34352775.0,Refined/Articles
-80 Tin And Articles Thereof,Asia - South,2025 through June,432002,432002.0,Refined/Articles
+80 Tin And Articles Thereof,Asia - South,2025,432002,432002.0,Refined/Articles
 74 Copper And Articles Thereof,Asia - South,2023,237311007,237296329.0,Refined/Articles
 76 Aluminum And Articles Thereof,Asia - South,2022,1123910803,1009181506.0,Refined/Articles
 75 Nickel And Articles Thereof,Asia - South,2021,13017550,13339057.0,Refined/Articles
@@ -1472,17 +1472,17 @@ Commodities,Countries,Time,Customs Value (Gen) ($US) (Default Member),Customs Va
 74 Copper And Articles Thereof,Asia - South,2021,176342027,176380524.0,Refined/Articles
 76 Aluminum And Articles Thereof,Asia - South,2021,585276245,564199331.0,Refined/Articles
 74 Copper And Articles Thereof,Asia - South,2022,273168507,273104188.0,Refined/Articles
-76 Aluminum And Articles Thereof,Asia - South,2025 through June,523753035,553336236.0,Refined/Articles
+76 Aluminum And Articles Thereof,Asia - South,2025,523753035,553336236.0,Refined/Articles
 76 Aluminum And Articles Thereof,Asia - South,2023,865652674,831838670.0,Refined/Articles
 75 Nickel And Articles Thereof,Asia - South,2023,35450669,34984315.0,Refined/Articles
-75 Nickel And Articles Thereof,Asia - South,2025 through June,19112966,19689151.0,Refined/Articles
+75 Nickel And Articles Thereof,Asia - South,2025,19112966,19689151.0,Refined/Articles
 80 Tin And Articles Thereof,Asia - South,2023,1646447,1646447.0,Refined/Articles
 80 Tin And Articles Thereof,Asia - South,2021,7087584,7087584.0,Refined/Articles
-74 Copper And Articles Thereof,Asia - South,2025 through June,226658454,225251491.0,Refined/Articles
-75 Nickel And Articles Thereof,APEC - Asia Pacific Economic Co-operation,2025 through June,862682449,867630271.0,Refined/Articles
+74 Copper And Articles Thereof,Asia - South,2025,226658454,225251491.0,Refined/Articles
+75 Nickel And Articles Thereof,APEC - Asia Pacific Economic Co-operation,2025,862682449,867630271.0,Refined/Articles
 76 Aluminum And Articles Thereof,APEC - Asia Pacific Economic Co-operation,2022,23666952170,23472121597.0,Refined/Articles
-80 Tin And Articles Thereof,APEC - Asia Pacific Economic Co-operation,2025 through June,369284449,369307717.0,Refined/Articles
-76 Aluminum And Articles Thereof,APEC - Asia Pacific Economic Co-operation,2025 through June,8856431320,8775423614.0,Refined/Articles
+80 Tin And Articles Thereof,APEC - Asia Pacific Economic Co-operation,2025,369284449,369307717.0,Refined/Articles
+76 Aluminum And Articles Thereof,APEC - Asia Pacific Economic Co-operation,2025,8856431320,8775423614.0,Refined/Articles
 74 Copper And Articles Thereof,APEC - Asia Pacific Economic Co-operation,2021,13451261563,13490106823.0,Refined/Articles
 76 Aluminum And Articles Thereof,APEC - Asia Pacific Economic Co-operation,2021,19242936022,19088776913.0,Refined/Articles
 74 Copper And Articles Thereof,APEC - Asia Pacific Economic Co-operation,2023,11778898930,11800119431.0,Refined/Articles
@@ -1492,7 +1492,7 @@ Commodities,Countries,Time,Customs Value (Gen) ($US) (Default Member),Customs Va
 75 Nickel And Articles Thereof,APEC - Asia Pacific Economic Co-operation,2023,2468073229,2481875822.0,Refined/Articles
 76 Aluminum And Articles Thereof,APEC - Asia Pacific Economic Co-operation,2023,18430779683,18361495738.0,Refined/Articles
 75 Nickel And Articles Thereof,APEC - Asia Pacific Economic Co-operation,2024,1853967432,1854791630.0,Refined/Articles
-74 Copper And Articles Thereof,APEC - Asia Pacific Economic Co-operation,2025 through June,10074242472,10083667243.0,Refined/Articles
+74 Copper And Articles Thereof,APEC - Asia Pacific Economic Co-operation,2025,10074242472,10083667243.0,Refined/Articles
 76 Aluminum And Articles Thereof,APEC - Asia Pacific Economic Co-operation,2024,18932396692,18848177070.0,Refined/Articles
 80 Tin And Articles Thereof,APEC - Asia Pacific Economic Co-operation,2024,468915632,468659040.0,Refined/Articles
 74 Copper And Articles Thereof,APEC - Asia Pacific Economic Co-operation,2024,14200829105,14174655167.0,Refined/Articles
@@ -1505,9 +1505,9 @@ Commodities,Countries,Time,Customs Value (Gen) ($US) (Default Member),Customs Va
 80 Tin And Articles Thereof,ASEAN - Association of Southeast Asian Nations,2023,165767786,158209139.0,Refined/Articles
 76 Aluminum And Articles Thereof,ASEAN - Association of Southeast Asian Nations,2023,1103259596,1099411639.0,Refined/Articles
 74 Copper And Articles Thereof,ASEAN - Association of Southeast Asian Nations,2021,398289253,398150633.0,Refined/Articles
-80 Tin And Articles Thereof,ASEAN - Association of Southeast Asian Nations,2025 through June,64790915,64790915.0,Refined/Articles
+80 Tin And Articles Thereof,ASEAN - Association of Southeast Asian Nations,2025,64790915,64790915.0,Refined/Articles
 75 Nickel And Articles Thereof,ASEAN - Association of Southeast Asian Nations,2023,103577146,107677109.0,Refined/Articles
-74 Copper And Articles Thereof,ASEAN - Association of Southeast Asian Nations,2025 through June,426428007,425740385.0,Refined/Articles
+74 Copper And Articles Thereof,ASEAN - Association of Southeast Asian Nations,2025,426428007,425740385.0,Refined/Articles
 80 Tin And Articles Thereof,ASEAN - Association of Southeast Asian Nations,2022,224244441,227208314.0,Refined/Articles
 76 Aluminum And Articles Thereof,ASEAN - Association of Southeast Asian Nations,2022,1870841004,1845133362.0,Refined/Articles
 74 Copper And Articles Thereof,ASEAN - Association of Southeast Asian Nations,2023,375989215,374669014.0,Refined/Articles
@@ -1516,28 +1516,28 @@ Commodities,Countries,Time,Customs Value (Gen) ($US) (Default Member),Customs Va
 80 Tin And Articles Thereof,ASEAN - Association of Southeast Asian Nations,2024,86389369,86389369.0,Refined/Articles
 75 Nickel And Articles Thereof,ASEAN - Association of Southeast Asian Nations,2024,77877580,79173348.0,Refined/Articles
 75 Nickel And Articles Thereof,ASEAN - Association of Southeast Asian Nations,2021,21084378,21088772.0,Refined/Articles
-75 Nickel And Articles Thereof,ASEAN - Association of Southeast Asian Nations,2025 through June,32917598,32959515.0,Refined/Articles
-76 Aluminum And Articles Thereof,ASEAN - Association of Southeast Asian Nations,2025 through June,687881721,696710192.0,Refined/Articles
+75 Nickel And Articles Thereof,ASEAN - Association of Southeast Asian Nations,2025,32917598,32959515.0,Refined/Articles
+76 Aluminum And Articles Thereof,ASEAN - Association of Southeast Asian Nations,2025,687881721,696710192.0,Refined/Articles
 75 Nickel And Articles Thereof,ASEAN - Association of Southeast Asian Nations,2022,41538321,41305217.0,Refined/Articles
 2614 Titanium Ores And Concentrates,Asia - South,2023,14971320,14971320.0,Ore/Raw
 2603 Copper Ores And Concentrates,Asia - South,2022,185305,185305.0,Ore/Raw
 "7110 Platinum, Unwrought, Semimfr Forms Or In Powder Fm",Asia - South,2022,1371471,1371471.0,Other
 8110 Antimony And Artcls Throf Incl Waste And Scrap,Asia - South,2022,15383375,15383375.0,Other
-"2801 Fluorine, Chlorine, Bromine & Iodine",Asia - South,2025 through June,77448,77448.0,Other
+"2801 Fluorine, Chlorine, Bromine & Iodine",Asia - South,2025,77448,77448.0,Other
 2820 Manganese Oxides,Asia - South,2023,1209608,1209608.0,Compound
 7226 Fl-rl Alloy Steel Nesoi Un 600mm Wide,Asia - South,2023,1087325,1087325.0,Other
 8110 Antimony And Artcls Throf Incl Waste And Scrap,Asia - South,2021,18256366,18256366.0,Other
 "7110 Platinum, Unwrought, Semimfr Forms Or In Powder Fm",Asia - South,2024,11620304,11620304.0,Other
 2504 Natural Graphite,Asia - South,2021,696954,696954.0,Other
-"8111 Manganese And Artcles Thereof, Inc Waste And Scrap",Asia - South,2025 through June,15665,15665.0,Other
+"8111 Manganese And Artcles Thereof, Inc Waste And Scrap",Asia - South,2025,15665,15665.0,Other
 "7110 Platinum, Unwrought, Semimfr Forms Or In Powder Fm",Asia - South,2023,21054871,21054871.0,Other
 7226 Fl-rl Alloy Steel Nesoi Un 600mm Wide,Asia - South,2021,159118,159118.0,Other
-2602 Manganese Ores A Concntrts Inc Ferr Mangn Iron Ore,Asia - South,2025 through June,20822,20822.0,Ore/Raw
+2602 Manganese Ores A Concntrts Inc Ferr Mangn Iron Ore,Asia - South,2025,20822,20822.0,Ore/Raw
 "8111 Manganese And Artcles Thereof, Inc Waste And Scrap",Asia - South,2022,159186,159186.0,Other
 "2801 Fluorine, Chlorine, Bromine & Iodine",Asia - South,2022,96830,96830.0,Other
 "3910 Silicones, In Primary Forms",Asia - South,2024,8669293,8669293.0,Other
-"3910 Silicones, In Primary Forms",Asia - South,2025 through June,4506201,4506201.0,Other
-2609 Tin Ores And Concentrates,Asia - South,2025 through June,62118,62118.0,Ore/Raw
+"3910 Silicones, In Primary Forms",Asia - South,2025,4506201,4506201.0,Other
+2609 Tin Ores And Concentrates,Asia - South,2025,62118,62118.0,Ore/Raw
 "8105 Cobalt Mattes Etc, Cobalt & Art, Inc Waste & Scrap",Asia - South,2023,1381767,1565524.0,Other
 3801 Artificial Graphite; Collodial Graphite & Prep Etc,Asia - South,2023,11581851,11581851.0,Other
 "3910 Silicones, In Primary Forms",Asia - South,2022,16226528,16226528.0,Other
@@ -1545,34 +1545,34 @@ Commodities,Countries,Time,Customs Value (Gen) ($US) (Default Member),Customs Va
 "8105 Cobalt Mattes Etc, Cobalt & Art, Inc Waste & Scrap",Asia - South,2022,638404,898629.0,Other
 "8108 Titanium & Articles Thereof, Includ Waste & Scrap",Asia - South,2024,3254679,3359487.0,Refined/Articles
 2846 Rare-earth Metal Compounds Of Yttrium Or Scandium,Asia - South,2021,1345782,1345782.0,Compound
-7226 Fl-rl Alloy Steel Nesoi Un 600mm Wide,Asia - South,2025 through June,243874,243874.0,Other
+7226 Fl-rl Alloy Steel Nesoi Un 600mm Wide,Asia - South,2025,243874,243874.0,Other
 3801 Artificial Graphite; Collodial Graphite & Prep Etc,Asia - South,2024,6992898,6992898.0,Other
 2602 Manganese Ores A Concntrts Inc Ferr Mangn Iron Ore,Asia - South,2023,239225,239225.0,Ore/Raw
-2606 Aluminum Ores And Concentrates,Asia - South,2025 through June,19850,19850.0,Ore/Raw
+2606 Aluminum Ores And Concentrates,Asia - South,2025,19850,19850.0,Ore/Raw
 "2801 Fluorine, Chlorine, Bromine & Iodine",Asia - South,2023,33765,33765.0,Other
 "8112 Beryllium,chromium,hafnium,rhenium Etc & Articles",Asia - South,2021,1444048,1444048.0,Refined/Articles
-8110 Antimony And Artcls Throf Incl Waste And Scrap,Asia - South,2025 through June,18274657,18274657.0,Other
+8110 Antimony And Artcls Throf Incl Waste And Scrap,Asia - South,2025,18274657,18274657.0,Other
 2504 Natural Graphite,Asia - South,2023,799219,799219.0,Other
 2846 Rare-earth Metal Compounds Of Yttrium Or Scandium,Asia - South,2024,1493561,1493561.0,Compound
-"8105 Cobalt Mattes Etc, Cobalt & Art, Inc Waste & Scrap",Asia - South,2025 through June,1470747,1340078.0,Other
+"8105 Cobalt Mattes Etc, Cobalt & Art, Inc Waste & Scrap",Asia - South,2025,1470747,1340078.0,Other
 3801 Artificial Graphite; Collodial Graphite & Prep Etc,Asia - South,2022,8831210,8831210.0,Other
 7226 Fl-rl Alloy Steel Nesoi Un 600mm Wide,Asia - South,2022,814743,814743.0,Other
 2609 Tin Ores And Concentrates,Asia - South,2024,19577,19577.0,Ore/Raw
 "2801 Fluorine, Chlorine, Bromine & Iodine",Asia - South,2021,50122,50122.0,Other
 "3910 Silicones, In Primary Forms",Asia - South,2021,8651835,8651835.0,Other
-"8112 Beryllium,chromium,hafnium,rhenium Etc & Articles",Asia - South,2025 through June,1767553,1318358.0,Refined/Articles
-"7110 Platinum, Unwrought, Semimfr Forms Or In Powder Fm",Asia - South,2025 through June,53799583,53799583.0,Other
+"8112 Beryllium,chromium,hafnium,rhenium Etc & Articles",Asia - South,2025,1767553,1318358.0,Refined/Articles
+"7110 Platinum, Unwrought, Semimfr Forms Or In Powder Fm",Asia - South,2025,53799583,53799583.0,Other
 "8108 Titanium & Articles Thereof, Includ Waste & Scrap",Asia - South,2023,3238974,3463699.0,Refined/Articles
 "8108 Titanium & Articles Thereof, Includ Waste & Scrap",Asia - South,2021,991655,1238098.0,Refined/Articles
 "8111 Manganese And Artcles Thereof, Inc Waste And Scrap",Asia - South,2024,26905,26905.0,Other
 2820 Manganese Oxides,Asia - South,2021,5127664,5127664.0,Compound
 "2801 Fluorine, Chlorine, Bromine & Iodine",Asia - South,2024,260545,260545.0,Other
-2504 Natural Graphite,Asia - South,2025 through June,425891,425891.0,Other
+2504 Natural Graphite,Asia - South,2025,425891,425891.0,Other
 "7110 Platinum, Unwrought, Semimfr Forms Or In Powder Fm",Asia - South,2021,32369067,32369067.0,Other
 7226 Fl-rl Alloy Steel Nesoi Un 600mm Wide,Asia - South,2024,684066,684066.0,Other
 2820 Manganese Oxides,Asia - South,2024,2390750,2390750.0,Compound
-2846 Rare-earth Metal Compounds Of Yttrium Or Scandium,Asia - South,2025 through June,1353953,1353953.0,Compound
-2820 Manganese Oxides,Asia - South,2025 through June,2503894,2503894.0,Compound
+2846 Rare-earth Metal Compounds Of Yttrium Or Scandium,Asia - South,2025,1353953,1353953.0,Compound
+2820 Manganese Oxides,Asia - South,2025,2503894,2503894.0,Compound
 "3910 Silicones, In Primary Forms",Asia - South,2023,7367462,7367462.0,Other
 "8111 Manganese And Artcles Thereof, Inc Waste And Scrap",Asia - South,2023,37935,37935.0,Other
 2846 Rare-earth Metal Compounds Of Yttrium Or Scandium,Asia - South,2023,404865,404865.0,Compound
@@ -1582,11 +1582,11 @@ Commodities,Countries,Time,Customs Value (Gen) ($US) (Default Member),Customs Va
 7225 Fl-rl Alloy Steel Nesoi Nun 600mm Wide,Asia - South,2021,285350,285350.0,Other
 "8112 Beryllium,chromium,hafnium,rhenium Etc & Articles",Asia - South,2022,2278415,2278415.0,Refined/Articles
 8110 Antimony And Artcls Throf Incl Waste And Scrap,Asia - South,2023,15883691,15883691.0,Other
-"8108 Titanium & Articles Thereof, Includ Waste & Scrap",Asia - South,2025 through June,2640770,2535885.0,Refined/Articles
+"8108 Titanium & Articles Thereof, Includ Waste & Scrap",Asia - South,2025,2640770,2535885.0,Refined/Articles
 "8105 Cobalt Mattes Etc, Cobalt & Art, Inc Waste & Scrap",Asia - South,2021,422206,444669.0,Other
 8110 Antimony And Artcls Throf Incl Waste And Scrap,Asia - South,2024,13701542,13701542.0,Other
 2504 Natural Graphite,Asia - South,2024,914711,914711.0,Other
-3801 Artificial Graphite; Collodial Graphite & Prep Etc,Asia - South,2025 through June,4534595,4534595.0,Other
+3801 Artificial Graphite; Collodial Graphite & Prep Etc,Asia - South,2025,4534595,4534595.0,Other
 "8105 Cobalt Mattes Etc, Cobalt & Art, Inc Waste & Scrap",Asia - South,2024,347801,441948.0,Other
 2820 Manganese Oxides,Asia - South,2022,2202725,2202725.0,Compound
 "8108 Titanium & Articles Thereof, Includ Waste & Scrap",Asia - South,2022,1840790,2088583.0,Refined/Articles
@@ -1596,9 +1596,9 @@ Commodities,Countries,Time,Customs Value (Gen) ($US) (Default Member),Customs Va
 2504 Natural Graphite,Asia - South,2022,779394,779394.0,Other
 2602 Manganese Ores A Concntrts Inc Ferr Mangn Iron Ore,Asia - South,2024,99656,99656.0,Ore/Raw
 "8111 Manganese And Artcles Thereof, Inc Waste And Scrap",APEC - Asia Pacific Economic Co-operation,2022,142708015,141553507.0,Other
-8110 Antimony And Artcls Throf Incl Waste And Scrap,APEC - Asia Pacific Economic Co-operation,2025 through June,56821190,56821190.0,Other
+8110 Antimony And Artcls Throf Incl Waste And Scrap,APEC - Asia Pacific Economic Co-operation,2025,56821190,56821190.0,Other
 2604 Nickel Ores And Concentrates,APEC - Asia Pacific Economic Co-operation,2023,21819,21819.0,Ore/Raw
-2602 Manganese Ores A Concntrts Inc Ferr Mangn Iron Ore,APEC - Asia Pacific Economic Co-operation,2025 through June,6547756,6547756.0,Ore/Raw
+2602 Manganese Ores A Concntrts Inc Ferr Mangn Iron Ore,APEC - Asia Pacific Economic Co-operation,2025,6547756,6547756.0,Ore/Raw
 3801 Artificial Graphite; Collodial Graphite & Prep Etc,APEC - Asia Pacific Economic Co-operation,2024,388376871,388532453.0,Other
 2614 Titanium Ores And Concentrates,APEC - Asia Pacific Economic Co-operation,2024,95782798,95782798.0,Ore/Raw
 "8105 Cobalt Mattes Etc, Cobalt & Art, Inc Waste & Scrap",APEC - Asia Pacific Economic Co-operation,2024,146039813,144668622.0,Other
@@ -1607,19 +1607,19 @@ Commodities,Countries,Time,Customs Value (Gen) ($US) (Default Member),Customs Va
 "8111 Manganese And Artcles Thereof, Inc Waste And Scrap",APEC - Asia Pacific Economic Co-operation,2024,96747143,96165217.0,Other
 2504 Natural Graphite,APEC - Asia Pacific Economic Co-operation,2022,161784767,161764301.0,Other
 3801 Artificial Graphite; Collodial Graphite & Prep Etc,APEC - Asia Pacific Economic Co-operation,2021,273690363,273628867.0,Other
-2604 Nickel Ores And Concentrates,APEC - Asia Pacific Economic Co-operation,2025 through June,136168,136168.0,Ore/Raw
+2604 Nickel Ores And Concentrates,APEC - Asia Pacific Economic Co-operation,2025,136168,136168.0,Ore/Raw
 "8111 Manganese And Artcles Thereof, Inc Waste And Scrap",APEC - Asia Pacific Economic Co-operation,2023,113337549,109391871.0,Other
 2614 Titanium Ores And Concentrates,APEC - Asia Pacific Economic Co-operation,2021,155502609,155502609.0,Ore/Raw
 "8108 Titanium & Articles Thereof, Includ Waste & Scrap",APEC - Asia Pacific Economic Co-operation,2022,492940117,507561570.0,Refined/Articles
 "8105 Cobalt Mattes Etc, Cobalt & Art, Inc Waste & Scrap",APEC - Asia Pacific Economic Co-operation,2023,160871679,161033025.0,Other
-2614 Titanium Ores And Concentrates,APEC - Asia Pacific Economic Co-operation,2025 through June,54643132,54643132.0,Ore/Raw
-"8105 Cobalt Mattes Etc, Cobalt & Art, Inc Waste & Scrap",APEC - Asia Pacific Economic Co-operation,2025 through June,125677764,123745036.0,Other
-"2801 Fluorine, Chlorine, Bromine & Iodine",APEC - Asia Pacific Economic Co-operation,2025 through June,197857269,197857269.0,Other
+2614 Titanium Ores And Concentrates,APEC - Asia Pacific Economic Co-operation,2025,54643132,54643132.0,Ore/Raw
+"8105 Cobalt Mattes Etc, Cobalt & Art, Inc Waste & Scrap",APEC - Asia Pacific Economic Co-operation,2025,125677764,123745036.0,Other
+"2801 Fluorine, Chlorine, Bromine & Iodine",APEC - Asia Pacific Economic Co-operation,2025,197857269,197857269.0,Other
 7226 Fl-rl Alloy Steel Nesoi Un 600mm Wide,APEC - Asia Pacific Economic Co-operation,2022,118129462,116729328.0,Other
 "7110 Platinum, Unwrought, Semimfr Forms Or In Powder Fm",APEC - Asia Pacific Economic Co-operation,2024,1385974035,1385974035.0,Other
 3801 Artificial Graphite; Collodial Graphite & Prep Etc,APEC - Asia Pacific Economic Co-operation,2022,467741118,467253284.0,Other
 2606 Aluminum Ores And Concentrates,APEC - Asia Pacific Economic Co-operation,2022,31857661,30081930.0,Ore/Raw
-7225 Fl-rl Alloy Steel Nesoi Nun 600mm Wide,APEC - Asia Pacific Economic Co-operation,2025 through June,421998135,412931771.0,Other
+7225 Fl-rl Alloy Steel Nesoi Nun 600mm Wide,APEC - Asia Pacific Economic Co-operation,2025,421998135,412931771.0,Other
 2604 Nickel Ores And Concentrates,APEC - Asia Pacific Economic Co-operation,2024,73394,73394.0,Ore/Raw
 2603 Copper Ores And Concentrates,APEC - Asia Pacific Economic Co-operation,2023,34636986,34636986.0,Ore/Raw
 "8105 Cobalt Mattes Etc, Cobalt & Art, Inc Waste & Scrap",APEC - Asia Pacific Economic Co-operation,2022,222099583,226496182.0,Other
@@ -1632,11 +1632,11 @@ Commodities,Countries,Time,Customs Value (Gen) ($US) (Default Member),Customs Va
 2606 Aluminum Ores And Concentrates,APEC - Asia Pacific Economic Co-operation,2023,38580813,38012122.0,Ore/Raw
 2602 Manganese Ores A Concntrts Inc Ferr Mangn Iron Ore,APEC - Asia Pacific Economic Co-operation,2021,9674112,9674112.0,Ore/Raw
 2604 Nickel Ores And Concentrates,APEC - Asia Pacific Economic Co-operation,2022,101622,101622.0,Ore/Raw
-"8112 Beryllium,chromium,hafnium,rhenium Etc & Articles",APEC - Asia Pacific Economic Co-operation,2025 through June,137379638,137131360.0,Refined/Articles
+"8112 Beryllium,chromium,hafnium,rhenium Etc & Articles",APEC - Asia Pacific Economic Co-operation,2025,137379638,137131360.0,Refined/Articles
 "3910 Silicones, In Primary Forms",APEC - Asia Pacific Economic Co-operation,2022,714073594,710219132.0,Other
 2605 Cobalt Ores And Concentrates,APEC - Asia Pacific Economic Co-operation,2021,356450,356450.0,Ore/Raw
-"3910 Silicones, In Primary Forms",APEC - Asia Pacific Economic Co-operation,2025 through June,189356075,188531769.0,Other
-2603 Copper Ores And Concentrates,APEC - Asia Pacific Economic Co-operation,2025 through June,322975,322975.0,Ore/Raw
+"3910 Silicones, In Primary Forms",APEC - Asia Pacific Economic Co-operation,2025,189356075,188531769.0,Other
+2603 Copper Ores And Concentrates,APEC - Asia Pacific Economic Co-operation,2025,322975,322975.0,Ore/Raw
 "8108 Titanium & Articles Thereof, Includ Waste & Scrap",APEC - Asia Pacific Economic Co-operation,2024,669573318,669213058.0,Refined/Articles
 "2801 Fluorine, Chlorine, Bromine & Iodine",APEC - Asia Pacific Economic Co-operation,2023,344881000,344881000.0,Other
 "3910 Silicones, In Primary Forms",APEC - Asia Pacific Economic Co-operation,2024,385000109,380972796.0,Other
@@ -1651,35 +1651,35 @@ Commodities,Countries,Time,Customs Value (Gen) ($US) (Default Member),Customs Va
 2606 Aluminum Ores And Concentrates,APEC - Asia Pacific Economic Co-operation,2024,48020094,48020094.0,Ore/Raw
 8110 Antimony And Artcls Throf Incl Waste And Scrap,APEC - Asia Pacific Economic Co-operation,2024,60942912,60942912.0,Other
 2603 Copper Ores And Concentrates,APEC - Asia Pacific Economic Co-operation,2021,101450514,101450514.0,Ore/Raw
-2504 Natural Graphite,APEC - Asia Pacific Economic Co-operation,2025 through June,58348425,56681679.0,Other
+2504 Natural Graphite,APEC - Asia Pacific Economic Co-operation,2025,58348425,56681679.0,Other
 2820 Manganese Oxides,APEC - Asia Pacific Economic Co-operation,2023,5429523,5429523.0,Compound
 2614 Titanium Ores And Concentrates,APEC - Asia Pacific Economic Co-operation,2022,123824713,123824713.0,Ore/Raw
 "2801 Fluorine, Chlorine, Bromine & Iodine",APEC - Asia Pacific Economic Co-operation,2021,200938151,200938151.0,Other
 "7110 Platinum, Unwrought, Semimfr Forms Or In Powder Fm",APEC - Asia Pacific Economic Co-operation,2022,2827744237,2827744237.0,Other
 2606 Aluminum Ores And Concentrates,APEC - Asia Pacific Economic Co-operation,2021,45163999,44804065.0,Ore/Raw
-"8111 Manganese And Artcles Thereof, Inc Waste And Scrap",APEC - Asia Pacific Economic Co-operation,2025 through June,41429572,43303776.0,Other
+"8111 Manganese And Artcles Thereof, Inc Waste And Scrap",APEC - Asia Pacific Economic Co-operation,2025,41429572,43303776.0,Other
 2614 Titanium Ores And Concentrates,APEC - Asia Pacific Economic Co-operation,2023,61347159,61347159.0,Ore/Raw
 7225 Fl-rl Alloy Steel Nesoi Nun 600mm Wide,APEC - Asia Pacific Economic Co-operation,2022,1045923473,1021068430.0,Other
 2602 Manganese Ores A Concntrts Inc Ferr Mangn Iron Ore,APEC - Asia Pacific Economic Co-operation,2024,8382459,8382459.0,Ore/Raw
 "8112 Beryllium,chromium,hafnium,rhenium Etc & Articles",APEC - Asia Pacific Economic Co-operation,2023,210316868,214593057.0,Refined/Articles
 8110 Antimony And Artcls Throf Incl Waste And Scrap,APEC - Asia Pacific Economic Co-operation,2021,38632428,38632428.0,Other
 2603 Copper Ores And Concentrates,APEC - Asia Pacific Economic Co-operation,2022,122490327,122490327.0,Ore/Raw
-7226 Fl-rl Alloy Steel Nesoi Un 600mm Wide,APEC - Asia Pacific Economic Co-operation,2025 through June,49455789,49055327.0,Other
+7226 Fl-rl Alloy Steel Nesoi Un 600mm Wide,APEC - Asia Pacific Economic Co-operation,2025,49455789,49055327.0,Other
 2820 Manganese Oxides,APEC - Asia Pacific Economic Co-operation,2022,12327061,12327061.0,Compound
 "8112 Beryllium,chromium,hafnium,rhenium Etc & Articles",APEC - Asia Pacific Economic Co-operation,2024,282933630,278353703.0,Refined/Articles
-"8108 Titanium & Articles Thereof, Includ Waste & Scrap",APEC - Asia Pacific Economic Co-operation,2025 through June,351744410,356864379.0,Refined/Articles
+"8108 Titanium & Articles Thereof, Includ Waste & Scrap",APEC - Asia Pacific Economic Co-operation,2025,351744410,356864379.0,Refined/Articles
 7226 Fl-rl Alloy Steel Nesoi Un 600mm Wide,APEC - Asia Pacific Economic Co-operation,2023,126688361,124607742.0,Other
 2820 Manganese Oxides,APEC - Asia Pacific Economic Co-operation,2021,9789014,9789014.0,Compound
 "8112 Beryllium,chromium,hafnium,rhenium Etc & Articles",APEC - Asia Pacific Economic Co-operation,2022,183181444,177645551.0,Refined/Articles
 2605 Cobalt Ores And Concentrates,APEC - Asia Pacific Economic Co-operation,2022,954846,954846.0,Ore/Raw
 8110 Antimony And Artcls Throf Incl Waste And Scrap,APEC - Asia Pacific Economic Co-operation,2022,53941408,53574951.0,Other
 "8108 Titanium & Articles Thereof, Includ Waste & Scrap",APEC - Asia Pacific Economic Co-operation,2021,377521467,401473153.0,Refined/Articles
-2606 Aluminum Ores And Concentrates,APEC - Asia Pacific Economic Co-operation,2025 through June,12218527,12218527.0,Ore/Raw
-2820 Manganese Oxides,APEC - Asia Pacific Economic Co-operation,2025 through June,2144496,2144496.0,Compound
+2606 Aluminum Ores And Concentrates,APEC - Asia Pacific Economic Co-operation,2025,12218527,12218527.0,Ore/Raw
+2820 Manganese Oxides,APEC - Asia Pacific Economic Co-operation,2025,2144496,2144496.0,Compound
 7226 Fl-rl Alloy Steel Nesoi Un 600mm Wide,APEC - Asia Pacific Economic Co-operation,2024,116254537,113172016.0,Other
 2605 Cobalt Ores And Concentrates,APEC - Asia Pacific Economic Co-operation,2023,151300,151300.0,Ore/Raw
 7225 Fl-rl Alloy Steel Nesoi Nun 600mm Wide,APEC - Asia Pacific Economic Co-operation,2023,1012849015,1007427405.0,Other
-3801 Artificial Graphite; Collodial Graphite & Prep Etc,APEC - Asia Pacific Economic Co-operation,2025 through June,219193807,219060931.0,Other
+3801 Artificial Graphite; Collodial Graphite & Prep Etc,APEC - Asia Pacific Economic Co-operation,2025,219193807,219060931.0,Other
 "2801 Fluorine, Chlorine, Bromine & Iodine",APEC - Asia Pacific Economic Co-operation,2024,427286593,427286593.0,Other
 "3910 Silicones, In Primary Forms",APEC - Asia Pacific Economic Co-operation,2021,391128453,389831357.0,Other
 7225 Fl-rl Alloy Steel Nesoi Nun 600mm Wide,APEC - Asia Pacific Economic Co-operation,2024,1058662575,1055898116.0,Other
@@ -1688,35 +1688,35 @@ Commodities,Countries,Time,Customs Value (Gen) ($US) (Default Member),Customs Va
 "3910 Silicones, In Primary Forms",APEC - Asia Pacific Economic Co-operation,2023,348601085,344668196.0,Other
 2603 Copper Ores And Concentrates,APEC - Asia Pacific Economic Co-operation,2024,257457,257457.0,Ore/Raw
 2504 Natural Graphite,APEC - Asia Pacific Economic Co-operation,2021,53987731,53943942.0,Other
-"7110 Platinum, Unwrought, Semimfr Forms Or In Powder Fm",APEC - Asia Pacific Economic Co-operation,2025 through June,891527677,891527677.0,Other
-2846 Rare-earth Metal Compounds Of Yttrium Or Scandium,APEC - Asia Pacific Economic Co-operation,2025 through June,78298339,80374139.0,Compound
+"7110 Platinum, Unwrought, Semimfr Forms Or In Powder Fm",APEC - Asia Pacific Economic Co-operation,2025,891527677,891527677.0,Other
+2846 Rare-earth Metal Compounds Of Yttrium Or Scandium,APEC - Asia Pacific Economic Co-operation,2025,78298339,80374139.0,Compound
 2504 Natural Graphite,APEC - Asia Pacific Economic Co-operation,2023,128065954,128050110.0,Other
 3801 Artificial Graphite; Collodial Graphite & Prep Etc,APEC - Asia Pacific Economic Co-operation,2023,433457799,433630454.0,Other
 2602 Manganese Ores A Concntrts Inc Ferr Mangn Iron Ore,APEC - Asia Pacific Economic Co-operation,2023,2485470,2485470.0,Ore/Raw
 "8112 Beryllium,chromium,hafnium,rhenium Etc & Articles",APEC - Asia Pacific Economic Co-operation,2021,135155195,138731755.0,Refined/Articles
 2504 Natural Graphite,ASEAN - Association of Southeast Asian Nations,2022,2308,2308.0,Other
-8110 Antimony And Artcls Throf Incl Waste And Scrap,ASEAN - Association of Southeast Asian Nations,2025 through June,50081778,50081778.0,Other
-2504 Natural Graphite,ASEAN - Association of Southeast Asian Nations,2025 through June,7225570,7225570.0,Other
+8110 Antimony And Artcls Throf Incl Waste And Scrap,ASEAN - Association of Southeast Asian Nations,2025,50081778,50081778.0,Other
+2504 Natural Graphite,ASEAN - Association of Southeast Asian Nations,2025,7225570,7225570.0,Other
 "8105 Cobalt Mattes Etc, Cobalt & Art, Inc Waste & Scrap",ASEAN - Association of Southeast Asian Nations,2022,538821,538821.0,Other
 "8112 Beryllium,chromium,hafnium,rhenium Etc & Articles",ASEAN - Association of Southeast Asian Nations,2021,1385658,1385658.0,Refined/Articles
-"7110 Platinum, Unwrought, Semimfr Forms Or In Powder Fm",ASEAN - Association of Southeast Asian Nations,2025 through June,22352442,22352442.0,Other
+"7110 Platinum, Unwrought, Semimfr Forms Or In Powder Fm",ASEAN - Association of Southeast Asian Nations,2025,22352442,22352442.0,Other
 "3910 Silicones, In Primary Forms",ASEAN - Association of Southeast Asian Nations,2022,96389301,96371951.0,Other
 2504 Natural Graphite,ASEAN - Association of Southeast Asian Nations,2024,82684,82684.0,Other
 2846 Rare-earth Metal Compounds Of Yttrium Or Scandium,ASEAN - Association of Southeast Asian Nations,2024,1692396,1692396.0,Compound
 "7110 Platinum, Unwrought, Semimfr Forms Or In Powder Fm",ASEAN - Association of Southeast Asian Nations,2023,5179641,5179641.0,Other
 7225 Fl-rl Alloy Steel Nesoi Nun 600mm Wide,ASEAN - Association of Southeast Asian Nations,2021,10218,10218.0,Other
-7226 Fl-rl Alloy Steel Nesoi Un 600mm Wide,ASEAN - Association of Southeast Asian Nations,2025 through June,155660,155660.0,Other
+7226 Fl-rl Alloy Steel Nesoi Un 600mm Wide,ASEAN - Association of Southeast Asian Nations,2025,155660,155660.0,Other
 "3910 Silicones, In Primary Forms",ASEAN - Association of Southeast Asian Nations,2024,39119006,39747963.0,Other
-"8112 Beryllium,chromium,hafnium,rhenium Etc & Articles",ASEAN - Association of Southeast Asian Nations,2025 through June,3683552,3683552.0,Refined/Articles
+"8112 Beryllium,chromium,hafnium,rhenium Etc & Articles",ASEAN - Association of Southeast Asian Nations,2025,3683552,3683552.0,Refined/Articles
 "8108 Titanium & Articles Thereof, Includ Waste & Scrap",ASEAN - Association of Southeast Asian Nations,2021,3874235,3874235.0,Refined/Articles
 "8105 Cobalt Mattes Etc, Cobalt & Art, Inc Waste & Scrap",ASEAN - Association of Southeast Asian Nations,2023,802987,802987.0,Other
 3801 Artificial Graphite; Collodial Graphite & Prep Etc,ASEAN - Association of Southeast Asian Nations,2021,1039128,1039128.0,Other
-2604 Nickel Ores And Concentrates,ASEAN - Association of Southeast Asian Nations,2025 through June,2145,2145.0,Ore/Raw
+2604 Nickel Ores And Concentrates,ASEAN - Association of Southeast Asian Nations,2025,2145,2145.0,Ore/Raw
 "8111 Manganese And Artcles Thereof, Inc Waste And Scrap",ASEAN - Association of Southeast Asian Nations,2023,3936631,3936631.0,Other
-2820 Manganese Oxides,ASEAN - Association of Southeast Asian Nations,2025 through June,70000,70000.0,Compound
+2820 Manganese Oxides,ASEAN - Association of Southeast Asian Nations,2025,70000,70000.0,Compound
 "7110 Platinum, Unwrought, Semimfr Forms Or In Powder Fm",ASEAN - Association of Southeast Asian Nations,2024,55649980,55649980.0,Other
 3801 Artificial Graphite; Collodial Graphite & Prep Etc,ASEAN - Association of Southeast Asian Nations,2023,4873329,4873329.0,Other
-2846 Rare-earth Metal Compounds Of Yttrium Or Scandium,ASEAN - Association of Southeast Asian Nations,2025 through June,1854646,1854646.0,Compound
+2846 Rare-earth Metal Compounds Of Yttrium Or Scandium,ASEAN - Association of Southeast Asian Nations,2025,1854646,1854646.0,Compound
 "8112 Beryllium,chromium,hafnium,rhenium Etc & Articles",ASEAN - Association of Southeast Asian Nations,2024,696273,696273.0,Refined/Articles
 3801 Artificial Graphite; Collodial Graphite & Prep Etc,ASEAN - Association of Southeast Asian Nations,2022,6556815,6556815.0,Other
 "8112 Beryllium,chromium,hafnium,rhenium Etc & Articles",ASEAN - Association of Southeast Asian Nations,2023,1112261,1112261.0,Refined/Articles
@@ -1727,9 +1727,9 @@ Commodities,Countries,Time,Customs Value (Gen) ($US) (Default Member),Customs Va
 7225 Fl-rl Alloy Steel Nesoi Nun 600mm Wide,ASEAN - Association of Southeast Asian Nations,2022,46752,46752.0,Other
 "8112 Beryllium,chromium,hafnium,rhenium Etc & Articles",ASEAN - Association of Southeast Asian Nations,2022,349555,349555.0,Refined/Articles
 2820 Manganese Oxides,ASEAN - Association of Southeast Asian Nations,2024,490000,490000.0,Compound
-"3910 Silicones, In Primary Forms",ASEAN - Association of Southeast Asian Nations,2025 through June,18275954,18441246.0,Other
+"3910 Silicones, In Primary Forms",ASEAN - Association of Southeast Asian Nations,2025,18275954,18441246.0,Other
 "7110 Platinum, Unwrought, Semimfr Forms Or In Powder Fm",ASEAN - Association of Southeast Asian Nations,2021,71393462,71393462.0,Other
-3801 Artificial Graphite; Collodial Graphite & Prep Etc,ASEAN - Association of Southeast Asian Nations,2025 through June,45919854,45822654.0,Other
+3801 Artificial Graphite; Collodial Graphite & Prep Etc,ASEAN - Association of Southeast Asian Nations,2025,45919854,45822654.0,Other
 "3910 Silicones, In Primary Forms",ASEAN - Association of Southeast Asian Nations,2021,35287447,35938657.0,Other
 2846 Rare-earth Metal Compounds Of Yttrium Or Scandium,ASEAN - Association of Southeast Asian Nations,2021,4434833,4434833.0,Compound
 "3910 Silicones, In Primary Forms",ASEAN - Association of Southeast Asian Nations,2023,27630797,27644426.0,Other
@@ -1749,48 +1749,48 @@ Commodities,Countries,Time,Customs Value (Gen) ($US) (Default Member),Customs Va
 "8111 Manganese And Artcles Thereof, Inc Waste And Scrap",ASEAN - Association of Southeast Asian Nations,2022,1133369,1133369.0,Other
 "8111 Manganese And Artcles Thereof, Inc Waste And Scrap",ASEAN - Association of Southeast Asian Nations,2024,2476836,2308187.0,Other
 2820 Manganese Oxides,ASEAN - Association of Southeast Asian Nations,2023,91380,91380.0,Compound
-7225 Fl-rl Alloy Steel Nesoi Nun 600mm Wide,ASEAN - Association of Southeast Asian Nations,2025 through June,114401,114401.0,Other
+7225 Fl-rl Alloy Steel Nesoi Nun 600mm Wide,ASEAN - Association of Southeast Asian Nations,2025,114401,114401.0,Other
 7226 Fl-rl Alloy Steel Nesoi Un 600mm Wide,ASEAN - Association of Southeast Asian Nations,2021,10990,10990.0,Other
 "2801 Fluorine, Chlorine, Bromine & Iodine",ASEAN - Association of Southeast Asian Nations,2021,41032,41032.0,Other
-"8111 Manganese And Artcles Thereof, Inc Waste And Scrap",ASEAN - Association of Southeast Asian Nations,2025 through June,1850041,1850041.0,Other
-"8108 Titanium & Articles Thereof, Includ Waste & Scrap",ASEAN - Association of Southeast Asian Nations,2025 through June,14322233,14304880.0,Refined/Articles
-"8105 Cobalt Mattes Etc, Cobalt & Art, Inc Waste & Scrap",ASEAN - Association of Southeast Asian Nations,2025 through June,28342898,28342898.0,Other
+"8111 Manganese And Artcles Thereof, Inc Waste And Scrap",ASEAN - Association of Southeast Asian Nations,2025,1850041,1850041.0,Other
+"8108 Titanium & Articles Thereof, Includ Waste & Scrap",ASEAN - Association of Southeast Asian Nations,2025,14322233,14304880.0,Refined/Articles
+"8105 Cobalt Mattes Etc, Cobalt & Art, Inc Waste & Scrap",ASEAN - Association of Southeast Asian Nations,2025,28342898,28342898.0,Other
 "8105 Cobalt Mattes Etc, Cobalt & Art, Inc Waste & Scrap",ASEAN - Association of Southeast Asian Nations,2021,525572,525572.0,Other
 282520 Lithium Oxide And Hydroxide,Asia - South,2021,15107,15107.0,Compound
 282520 Lithium Oxide And Hydroxide,Asia - South,2022,9500,9500.0,Compound
 282520 Lithium Oxide And Hydroxide,Asia - South,2023,102774,102774.0,Compound
 282520 Lithium Oxide And Hydroxide,Asia - South,2024,34420,34420.0,Compound
-282520 Lithium Oxide And Hydroxide,Asia - South,2025 through June,2825,2825.0,Compound
+282520 Lithium Oxide And Hydroxide,Asia - South,2025,2825,2825.0,Compound
 282540 Nickel Oxides And Hydroxides,Asia - South,2021,5744,5744.0,Compound
 282540 Nickel Oxides And Hydroxides,Asia - South,2024,2350,2350.0,Compound
-282540 Nickel Oxides And Hydroxides,Asia - South,2025 through June,11056,11056.0,Compound
+282540 Nickel Oxides And Hydroxides,Asia - South,2025,11056,11056.0,Compound
 282550 Copper Oxides And Hydroxides,Asia - South,2021,47880,47880.0,Compound
 282550 Copper Oxides And Hydroxides,Asia - South,2022,12006,12006.0,Compound
 282550 Copper Oxides And Hydroxides,Asia - South,2023,35895,35895.0,Compound
 282550 Copper Oxides And Hydroxides,Asia - South,2024,95618,95618.0,Compound
-282550 Copper Oxides And Hydroxides,Asia - South,2025 through June,107825,107825.0,Compound
+282550 Copper Oxides And Hydroxides,Asia - South,2025,107825,107825.0,Compound
 282580 Antimony Oxides,Asia - South,2021,133822,133822.0,Compound
 282580 Antimony Oxides,Asia - South,2022,432988,432988.0,Compound
 282580 Antimony Oxides,Asia - South,2023,436073,436073.0,Compound
 282580 Antimony Oxides,Asia - South,2024,1225406,1225406.0,Compound
-282580 Antimony Oxides,Asia - South,2025 through June,18635505,18635505.0,Compound
-"711041 Iridium, Osmium And Ruthenium, Unwrought Or Powder",Asia - South,2025 through June,12688,12688.0,Other
+282580 Antimony Oxides,Asia - South,2025,18635505,18635505.0,Compound
+"711041 Iridium, Osmium And Ruthenium, Unwrought Or Powder",Asia - South,2025,12688,12688.0,Other
 "711049 Iridium, Osmium And Ruthenium, Semimanufactured",Asia - South,2021,112200,112200.0,Other
 "711049 Iridium, Osmium And Ruthenium, Semimanufactured",Asia - South,2022,222785,222785.0,Other
 850511 Permanent Magnets Made Of Metal,Asia - South,2021,1308901,1304671.0,Advanced Product
 850511 Permanent Magnets Made Of Metal,Asia - South,2022,1662126,1654045.0,Advanced Product
 850511 Permanent Magnets Made Of Metal,Asia - South,2023,1390531,1416254.0,Advanced Product
 850511 Permanent Magnets Made Of Metal,Asia - South,2024,1828334,1828334.0,Advanced Product
-850511 Permanent Magnets Made Of Metal,Asia - South,2025 through June,1626564,1622809.0,Advanced Product
+850511 Permanent Magnets Made Of Metal,Asia - South,2025,1626564,1622809.0,Advanced Product
 "850650 Primary Cells And Batteries, Lithium",Asia - South,2021,69976,43336.0,Other
 "850650 Primary Cells And Batteries, Lithium",Asia - South,2022,147425,147425.0,Other
 "850650 Primary Cells And Batteries, Lithium",Asia - South,2023,681732,555094.0,Other
 "850650 Primary Cells And Batteries, Lithium",Asia - South,2024,322256,344738.0,Other
-"850650 Primary Cells And Batteries, Lithium",Asia - South,2025 through June,12345,12345.0,Other
+"850650 Primary Cells And Batteries, Lithium",Asia - South,2025,12345,12345.0,Other
 282580 Antimony Oxides,APEC - Asia Pacific Economic Co-operation,2023,107289445,107346795.0,Compound
 850511 Permanent Magnets Made Of Metal,APEC - Asia Pacific Economic Co-operation,2022,591893240,573418262.0,Advanced Product
 "850650 Primary Cells And Batteries, Lithium",APEC - Asia Pacific Economic Co-operation,2022,305282026,313947536.0,Other
-"711041 Iridium, Osmium And Ruthenium, Unwrought Or Powder",APEC - Asia Pacific Economic Co-operation,2025 through June,3657736,3657736.0,Other
+"711041 Iridium, Osmium And Ruthenium, Unwrought Or Powder",APEC - Asia Pacific Economic Co-operation,2025,3657736,3657736.0,Other
 282540 Nickel Oxides And Hydroxides,APEC - Asia Pacific Economic Co-operation,2024,34190154,34190154.0,Compound
 "850650 Primary Cells And Batteries, Lithium",APEC - Asia Pacific Economic Co-operation,2024,302938201,314580576.0,Other
 "711041 Iridium, Osmium And Ruthenium, Unwrought Or Powder",APEC - Asia Pacific Economic Co-operation,2021,45987388,45987388.0,Other
@@ -1802,10 +1802,10 @@ Commodities,Countries,Time,Customs Value (Gen) ($US) (Default Member),Customs Va
 282540 Nickel Oxides And Hydroxides,APEC - Asia Pacific Economic Co-operation,2022,64462315,64462315.0,Compound
 "711041 Iridium, Osmium And Ruthenium, Unwrought Or Powder",APEC - Asia Pacific Economic Co-operation,2024,8080911,8080911.0,Other
 282520 Lithium Oxide And Hydroxide,APEC - Asia Pacific Economic Co-operation,2022,33869546,33869546.0,Compound
-282520 Lithium Oxide And Hydroxide,APEC - Asia Pacific Economic Co-operation,2025 through June,4695238,4695238.0,Compound
+282520 Lithium Oxide And Hydroxide,APEC - Asia Pacific Economic Co-operation,2025,4695238,4695238.0,Compound
 282540 Nickel Oxides And Hydroxides,APEC - Asia Pacific Economic Co-operation,2021,15413677,15413677.0,Compound
 "711041 Iridium, Osmium And Ruthenium, Unwrought Or Powder",APEC - Asia Pacific Economic Co-operation,2022,17946161,17946161.0,Other
-850511 Permanent Magnets Made Of Metal,APEC - Asia Pacific Economic Co-operation,2025 through June,158422320,154170527.0,Advanced Product
+850511 Permanent Magnets Made Of Metal,APEC - Asia Pacific Economic Co-operation,2025,158422320,154170527.0,Advanced Product
 282550 Copper Oxides And Hydroxides,APEC - Asia Pacific Economic Co-operation,2022,16685349,16685349.0,Compound
 "711041 Iridium, Osmium And Ruthenium, Unwrought Or Powder",APEC - Asia Pacific Economic Co-operation,2023,12955406,12955406.0,Other
 282520 Lithium Oxide And Hydroxide,APEC - Asia Pacific Economic Co-operation,2021,18529068,18529068.0,Compound
@@ -1813,10 +1813,10 @@ Commodities,Countries,Time,Customs Value (Gen) ($US) (Default Member),Customs Va
 850511 Permanent Magnets Made Of Metal,APEC - Asia Pacific Economic Co-operation,2021,442938764,431109701.0,Advanced Product
 282550 Copper Oxides And Hydroxides,APEC - Asia Pacific Economic Co-operation,2023,13764324,13764324.0,Compound
 282580 Antimony Oxides,APEC - Asia Pacific Economic Co-operation,2021,119285667,119226127.0,Compound
-"850650 Primary Cells And Batteries, Lithium",APEC - Asia Pacific Economic Co-operation,2025 through June,141461268,144441690.0,Other
-282540 Nickel Oxides And Hydroxides,APEC - Asia Pacific Economic Co-operation,2025 through June,32528889,32528889.0,Compound
+"850650 Primary Cells And Batteries, Lithium",APEC - Asia Pacific Economic Co-operation,2025,141461268,144441690.0,Other
+282540 Nickel Oxides And Hydroxides,APEC - Asia Pacific Economic Co-operation,2025,32528889,32528889.0,Compound
 "711049 Iridium, Osmium And Ruthenium, Semimanufactured",APEC - Asia Pacific Economic Co-operation,2024,4752880,4752880.0,Other
-"711049 Iridium, Osmium And Ruthenium, Semimanufactured",APEC - Asia Pacific Economic Co-operation,2025 through June,4530199,4530199.0,Other
+"711049 Iridium, Osmium And Ruthenium, Semimanufactured",APEC - Asia Pacific Economic Co-operation,2025,4530199,4530199.0,Other
 282520 Lithium Oxide And Hydroxide,APEC - Asia Pacific Economic Co-operation,2024,10424733,10424733.0,Compound
 850511 Permanent Magnets Made Of Metal,APEC - Asia Pacific Economic Co-operation,2024,412686682,404514901.0,Advanced Product
 "711049 Iridium, Osmium And Ruthenium, Semimanufactured",APEC - Asia Pacific Economic Co-operation,2022,3370368,3370368.0,Other
@@ -1825,35 +1825,35 @@ Commodities,Countries,Time,Customs Value (Gen) ($US) (Default Member),Customs Va
 850511 Permanent Magnets Made Of Metal,APEC - Asia Pacific Economic Co-operation,2023,498781538,483662640.0,Advanced Product
 282550 Copper Oxides And Hydroxides,APEC - Asia Pacific Economic Co-operation,2021,15979816,15979816.0,Compound
 "850650 Primary Cells And Batteries, Lithium",APEC - Asia Pacific Economic Co-operation,2023,340763122,348140661.0,Other
-282550 Copper Oxides And Hydroxides,APEC - Asia Pacific Economic Co-operation,2025 through June,8146581,8146581.0,Compound
-282580 Antimony Oxides,APEC - Asia Pacific Economic Co-operation,2025 through June,46675394,46692159.0,Compound
-282520 Lithium Oxide And Hydroxide,ASEAN - Association of Southeast Asian Nations,2025 through June,2914,2914.0,Compound
+282550 Copper Oxides And Hydroxides,APEC - Asia Pacific Economic Co-operation,2025,8146581,8146581.0,Compound
+282580 Antimony Oxides,APEC - Asia Pacific Economic Co-operation,2025,46675394,46692159.0,Compound
+282520 Lithium Oxide And Hydroxide,ASEAN - Association of Southeast Asian Nations,2025,2914,2914.0,Compound
 282540 Nickel Oxides And Hydroxides,ASEAN - Association of Southeast Asian Nations,2021,3249511,3249511.0,Compound
 282540 Nickel Oxides And Hydroxides,ASEAN - Association of Southeast Asian Nations,2022,5109533,5109533.0,Compound
 282540 Nickel Oxides And Hydroxides,ASEAN - Association of Southeast Asian Nations,2023,4948652,4948652.0,Compound
 282540 Nickel Oxides And Hydroxides,ASEAN - Association of Southeast Asian Nations,2024,1794945,1794945.0,Compound
-282540 Nickel Oxides And Hydroxides,ASEAN - Association of Southeast Asian Nations,2025 through June,1310775,1310775.0,Compound
+282540 Nickel Oxides And Hydroxides,ASEAN - Association of Southeast Asian Nations,2025,1310775,1310775.0,Compound
 282580 Antimony Oxides,ASEAN - Association of Southeast Asian Nations,2021,1992500,1992500.0,Compound
 282580 Antimony Oxides,ASEAN - Association of Southeast Asian Nations,2023,2160000,2160000.0,Compound
 282580 Antimony Oxides,ASEAN - Association of Southeast Asian Nations,2024,5400000,5400000.0,Compound
-282580 Antimony Oxides,ASEAN - Association of Southeast Asian Nations,2025 through June,12342000,12342000.0,Compound
+282580 Antimony Oxides,ASEAN - Association of Southeast Asian Nations,2025,12342000,12342000.0,Compound
 "711041 Iridium, Osmium And Ruthenium, Unwrought Or Powder",ASEAN - Association of Southeast Asian Nations,2022,4823,4823.0,Other
 "711049 Iridium, Osmium And Ruthenium, Semimanufactured",ASEAN - Association of Southeast Asian Nations,2021,9815,9815.0,Other
 "711049 Iridium, Osmium And Ruthenium, Semimanufactured",ASEAN - Association of Southeast Asian Nations,2023,86278,86278.0,Other
 "711049 Iridium, Osmium And Ruthenium, Semimanufactured",ASEAN - Association of Southeast Asian Nations,2024,9548,9548.0,Other
-"711049 Iridium, Osmium And Ruthenium, Semimanufactured",ASEAN - Association of Southeast Asian Nations,2025 through June,1116612,1116612.0,Other
+"711049 Iridium, Osmium And Ruthenium, Semimanufactured",ASEAN - Association of Southeast Asian Nations,2025,1116612,1116612.0,Other
 850511 Permanent Magnets Made Of Metal,ASEAN - Association of Southeast Asian Nations,2021,18990095,18999155.0,Advanced Product
 850511 Permanent Magnets Made Of Metal,ASEAN - Association of Southeast Asian Nations,2022,14476211,14476211.0,Advanced Product
 850511 Permanent Magnets Made Of Metal,ASEAN - Association of Southeast Asian Nations,2023,14604167,14904477.0,Advanced Product
 850511 Permanent Magnets Made Of Metal,ASEAN - Association of Southeast Asian Nations,2024,20048337,20245171.0,Advanced Product
-850511 Permanent Magnets Made Of Metal,ASEAN - Association of Southeast Asian Nations,2025 through June,7995943,7823628.0,Advanced Product
+850511 Permanent Magnets Made Of Metal,ASEAN - Association of Southeast Asian Nations,2025,7995943,7823628.0,Advanced Product
 "850650 Primary Cells And Batteries, Lithium",ASEAN - Association of Southeast Asian Nations,2021,103167803,107455410.0,Other
 "850650 Primary Cells And Batteries, Lithium",ASEAN - Association of Southeast Asian Nations,2022,114258538,122905309.0,Other
 "850650 Primary Cells And Batteries, Lithium",ASEAN - Association of Southeast Asian Nations,2023,145059774,151912208.0,Other
 "850650 Primary Cells And Batteries, Lithium",ASEAN - Association of Southeast Asian Nations,2024,104328385,114984650.0,Other
-"850650 Primary Cells And Batteries, Lithium",ASEAN - Association of Southeast Asian Nations,2025 through June,45540949,48870653.0,Other
+"850650 Primary Cells And Batteries, Lithium",ASEAN - Association of Southeast Asian Nations,2025,45540949,48870653.0,Other
 2615906090 Vanadium Ores And Concentrates (kg),APEC - Asia Pacific Economic Co-operation,2021,963684,963684.0,Ore/Raw
 2615906090 Vanadium Ores And Concentrates (kg),APEC - Asia Pacific Economic Co-operation,2022,7183790,7183790.0,Ore/Raw
 2615906090 Vanadium Ores And Concentrates (kg),APEC - Asia Pacific Economic Co-operation,2023,9769999,9769999.0,Ore/Raw
 2615906090 Vanadium Ores And Concentrates (kg),APEC - Asia Pacific Economic Co-operation,2024,8498101,8498101.0,Ore/Raw
-2615906090 Vanadium Ores And Concentrates (kg),APEC - Asia Pacific Economic Co-operation,2025 through June,964772,964772.0,Ore/Raw
+2615906090 Vanadium Ores And Concentrates (kg),APEC - Asia Pacific Economic Co-operation,2025,964772,964772.0,Ore/Raw

@@ -1344,7 +1344,7 @@ Commodities,Countries,Time,Customs Value (Gen) ($US) (Default Member),Customs Va
 76 Aluminum And Articles Thereof,Philippines,2023,15699096,15689958.0,Refined/Articles
 80 Tin And Articles Thereof,Indonesia,2022,173867405,176831278.0,Refined/Articles
 74 Copper And Articles Thereof,Thailand,2023,226933677,226718846.0,Refined/Articles
-75 Nickel And Articles Thereof,Malaysia,2025 through June,8339738,8460874.0,Refined/Articles
+75 Nickel And Articles Thereof,Malaysia,2025,8339738,8460874.0,Refined/Articles
 76 Aluminum And Articles Thereof,Vietnam,2023,436191130,435828365.0,Refined/Articles
 76 Aluminum And Articles Thereof,Singapore,2023,12359475,12351220.0,Refined/Articles
 75 Nickel And Articles Thereof,Singapore,2022,24106276,24105610.0,Refined/Articles
@@ -1357,8 +1357,8 @@ Commodities,Countries,Time,Customs Value (Gen) ($US) (Default Member),Customs Va
 75 Nickel And Articles Thereof,Indonesia,2024,29144706,29144706.0,Refined/Articles
 76 Aluminum And Articles Thereof,Thailand,2023,356218259,352966091.0,Refined/Articles
 75 Nickel And Articles Thereof,Vietnam,2021,84328,88722.0,Refined/Articles
-75 Nickel And Articles Thereof,Vietnam,2025 through June,1217462,1160252.0,Refined/Articles
-76 Aluminum And Articles Thereof,Indonesia,2025 through June,57374702,72657635.0,Refined/Articles
+75 Nickel And Articles Thereof,Vietnam,2025,1217462,1160252.0,Refined/Articles
+76 Aluminum And Articles Thereof,Indonesia,2025,57374702,72657635.0,Refined/Articles
 76 Aluminum And Articles Thereof,Indonesia,2024,104262613,104263255.0,Refined/Articles
 75 Nickel And Articles Thereof,Indonesia,2022,10493912,10493912.0,Refined/Articles
 74 Copper And Articles Thereof,Thailand,2022,355559872,355228404.0,Refined/Articles
@@ -1367,17 +1367,17 @@ Commodities,Countries,Time,Customs Value (Gen) ($US) (Default Member),Customs Va
 80 Tin And Articles Thereof,Malaysia,2023,54087113,52444613.0,Refined/Articles
 74 Copper And Articles Thereof,Malaysia,2023,35265249,35265249.0,Refined/Articles
 80 Tin And Articles Thereof,Malaysia,2024,13854169,13854169.0,Refined/Articles
-74 Copper And Articles Thereof,Singapore,2025 through June,9693039,9693039.0,Refined/Articles
+74 Copper And Articles Thereof,Singapore,2025,9693039,9693039.0,Refined/Articles
 75 Nickel And Articles Thereof,Indonesia,2021,8736979,8736979.0,Refined/Articles
 76 Aluminum And Articles Thereof,Malaysia,2021,180308514,180379767.0,Refined/Articles
 74 Copper And Articles Thereof,Philippines,2022,1326898,1327497.0,Refined/Articles
 76 Aluminum And Articles Thereof,Burma,2024,90990,90990.0,Refined/Articles
-75 Nickel And Articles Thereof,Thailand,2025 through June,277582,253268.0,Refined/Articles
+75 Nickel And Articles Thereof,Thailand,2025,277582,253268.0,Refined/Articles
 76 Aluminum And Articles Thereof,Brunei,2024,862607,862607.0,Refined/Articles
 76 Aluminum And Articles Thereof,Cambodia,2022,9884728,9880425.0,Refined/Articles
 75 Nickel And Articles Thereof,Thailand,2022,43654,43654.0,Refined/Articles
 76 Aluminum And Articles Thereof,Singapore,2024,10993458,11163648.0,Refined/Articles
-76 Aluminum And Articles Thereof,Malaysia,2025 through June,73163153,73116728.0,Refined/Articles
+76 Aluminum And Articles Thereof,Malaysia,2025,73163153,73116728.0,Refined/Articles
 76 Aluminum And Articles Thereof,Philippines,2024,15147503,15136991.0,Refined/Articles
 75 Nickel And Articles Thereof,Vietnam,2022,134628,150030.0,Refined/Articles
 74 Copper And Articles Thereof,Indonesia,2021,24072482,24072482.0,Refined/Articles
@@ -1386,14 +1386,14 @@ Commodities,Countries,Time,Customs Value (Gen) ($US) (Default Member),Customs Va
 80 Tin And Articles Thereof,Vietnam,2023,337368,337368.0,Refined/Articles
 76 Aluminum And Articles Thereof,Philippines,2022,9544684,9524554.0,Refined/Articles
 80 Tin And Articles Thereof,Vietnam,2024,317381,317381.0,Refined/Articles
-76 Aluminum And Articles Thereof,Cambodia,2025 through June,17416813,17416813.0,Refined/Articles
+76 Aluminum And Articles Thereof,Cambodia,2025,17416813,17416813.0,Refined/Articles
 80 Tin And Articles Thereof,Malaysia,2022,36078607,36078607.0,Refined/Articles
 74 Copper And Articles Thereof,Indonesia,2022,31498910,31498910.0,Refined/Articles
 80 Tin And Articles Thereof,Thailand,2021,11407128,11407128.0,Refined/Articles
 76 Aluminum And Articles Thereof,Cambodia,2023,7838097,7881732.0,Refined/Articles
 80 Tin And Articles Thereof,Philippines,2022,117876,117876.0,Refined/Articles
 80 Tin And Articles Thereof,Singapore,2021,5478,5478.0,Refined/Articles
-76 Aluminum And Articles Thereof,Brunei,2025 through June,1094373,1094373.0,Refined/Articles
+76 Aluminum And Articles Thereof,Brunei,2025,1094373,1094373.0,Refined/Articles
 75 Nickel And Articles Thereof,Indonesia,2023,12054303,12054303.0,Refined/Articles
 80 Tin And Articles Thereof,Thailand,2022,13766570,13766570.0,Refined/Articles
 80 Tin And Articles Thereof,Indonesia,2021,250398216,240663896.0,Refined/Articles
@@ -1403,21 +1403,21 @@ Commodities,Countries,Time,Customs Value (Gen) ($US) (Default Member),Customs Va
 74 Copper And Articles Thereof,Cambodia,2021,17378,17378.0,Refined/Articles
 76 Aluminum And Articles Thereof,Vietnam,2022,550309381,549844048.0,Refined/Articles
 76 Aluminum And Articles Thereof,Singapore,2022,21289845,21268523.0,Refined/Articles
-80 Tin And Articles Thereof,Thailand,2025 through June,11063676,11063676.0,Refined/Articles
+80 Tin And Articles Thereof,Thailand,2025,11063676,11063676.0,Refined/Articles
 76 Aluminum And Articles Thereof,Thailand,2024,457366697,451255297.0,Refined/Articles
 75 Nickel And Articles Thereof,Philippines,2021,17701,17701.0,Refined/Articles
 74 Copper And Articles Thereof,Cambodia,2024,39572,37466.0,Refined/Articles
 80 Tin And Articles Thereof,Philippines,2023,37146,37146.0,Refined/Articles
-76 Aluminum And Articles Thereof,Vietnam,2025 through June,239004848,239199610.0,Refined/Articles
+76 Aluminum And Articles Thereof,Vietnam,2025,239004848,239199610.0,Refined/Articles
 76 Aluminum And Articles Thereof,Thailand,2022,880145630,854915388.0,Refined/Articles
 75 Nickel And Articles Thereof,Cambodia,2022,5869,5869.0,Refined/Articles
 76 Aluminum And Articles Thereof,Indonesia,2022,196109070,196062370.0,Refined/Articles
 74 Copper And Articles Thereof,Malaysia,2022,65694824,65698729.0,Refined/Articles
 74 Copper And Articles Thereof,Singapore,2021,18547049,18549499.0,Refined/Articles
-74 Copper And Articles Thereof,Indonesia,2025 through June,11400701,11400701.0,Refined/Articles
+74 Copper And Articles Thereof,Indonesia,2025,11400701,11400701.0,Refined/Articles
 75 Nickel And Articles Thereof,Vietnam,2023,246780,242385.0,Refined/Articles
 74 Copper And Articles Thereof,Vietnam,2021,86305703,86113519.0,Refined/Articles
-76 Aluminum And Articles Thereof,Burma,2025 through June,27196,27196.0,Refined/Articles
+76 Aluminum And Articles Thereof,Burma,2025,27196,27196.0,Refined/Articles
 76 Aluminum And Articles Thereof,Singapore,2021,18691163,18673337.0,Refined/Articles
 74 Copper And Articles Thereof,Malaysia,2024,132799273,132781118.0,Refined/Articles
 80 Tin And Articles Thereof,Singapore,2023,9407841,6294002.0,Refined/Articles
@@ -1425,34 +1425,34 @@ Commodities,Countries,Time,Customs Value (Gen) ($US) (Default Member),Customs Va
 76 Aluminum And Articles Thereof,Malaysia,2024,134399916,134381419.0,Refined/Articles
 80 Tin And Articles Thereof,Indonesia,2023,89598767,86796459.0,Refined/Articles
 80 Tin And Articles Thereof,Philippines,2024,2603,2603.0,Refined/Articles
-75 Nickel And Articles Thereof,Indonesia,2025 through June,10211752,10211752.0,Refined/Articles
+75 Nickel And Articles Thereof,Indonesia,2025,10211752,10211752.0,Refined/Articles
 75 Nickel And Articles Thereof,Singapore,2023,59546779,59559433.0,Refined/Articles
 74 Copper And Articles Thereof,Philippines,2024,1130527,1132773.0,Refined/Articles
 74 Copper And Articles Thereof,Indonesia,2024,19865124,19865124.0,Refined/Articles
 76 Aluminum And Articles Thereof,Brunei,2021,2024858,2024858.0,Refined/Articles
 76 Aluminum And Articles Thereof,Laos,2024,7315,7315.0,Refined/Articles
 75 Nickel And Articles Thereof,Malaysia,2023,29770141,33912749.0,Refined/Articles
-76 Aluminum And Articles Thereof,Thailand,2025 through June,291749083,286513216.0,Refined/Articles
+76 Aluminum And Articles Thereof,Thailand,2025,291749083,286513216.0,Refined/Articles
 76 Aluminum And Articles Thereof,Brunei,2023,96571,96571.0,Refined/Articles
-74 Copper And Articles Thereof,Cambodia,2025 through June,29115,38990.0,Refined/Articles
-80 Tin And Articles Thereof,Malaysia,2025 through June,20180096,20180096.0,Refined/Articles
+74 Copper And Articles Thereof,Cambodia,2025,29115,38990.0,Refined/Articles
+80 Tin And Articles Thereof,Malaysia,2025,20180096,20180096.0,Refined/Articles
 74 Copper And Articles Thereof,Cambodia,2022,90224,90224.0,Refined/Articles
-76 Aluminum And Articles Thereof,Philippines,2025 through June,3993123,3909793.0,Refined/Articles
+76 Aluminum And Articles Thereof,Philippines,2025,3993123,3909793.0,Refined/Articles
 80 Tin And Articles Thereof,Malaysia,2021,115921539,115921539.0,Refined/Articles
-74 Copper And Articles Thereof,Thailand,2025 through June,229796628,229575745.0,Refined/Articles
-74 Copper And Articles Thereof,Vietnam,2025 through June,77969234,77506138.0,Refined/Articles
-80 Tin And Articles Thereof,Indonesia,2025 through June,33496980,33496980.0,Refined/Articles
+74 Copper And Articles Thereof,Thailand,2025,229796628,229575745.0,Refined/Articles
+74 Copper And Articles Thereof,Vietnam,2025,77969234,77506138.0,Refined/Articles
+80 Tin And Articles Thereof,Indonesia,2025,33496980,33496980.0,Refined/Articles
 80 Tin And Articles Thereof,Thailand,2023,12299551,12299551.0,Refined/Articles
 74 Copper And Articles Thereof,Thailand,2024,344223060,343812148.0,Refined/Articles
 76 Aluminum And Articles Thereof,Cambodia,2021,8739882,8809972.0,Refined/Articles
-74 Copper And Articles Thereof,Malaysia,2025 through June,89639363,89623189.0,Refined/Articles
+74 Copper And Articles Thereof,Malaysia,2025,89639363,89623189.0,Refined/Articles
 76 Aluminum And Articles Thereof,Burma,2023,5759167,5759167.0,Refined/Articles
-75 Nickel And Articles Thereof,Singapore,2025 through June,12864873,12867178.0,Refined/Articles
+75 Nickel And Articles Thereof,Singapore,2025,12864873,12867178.0,Refined/Articles
 74 Copper And Articles Thereof,Laos,2024,6346,6346.0,Refined/Articles
 74 Copper And Articles Thereof,Vietnam,2022,99992092,99822845.0,Refined/Articles
 74 Copper And Articles Thereof,Singapore,2022,20945864,20926664.0,Refined/Articles
 75 Nickel And Articles Thereof,Malaysia,2024,14733659,16302970.0,Refined/Articles
-76 Aluminum And Articles Thereof,Laos,2025 through June,112651,112651.0,Refined/Articles
+76 Aluminum And Articles Thereof,Laos,2025,112651,112651.0,Refined/Articles
 75 Nickel And Articles Thereof,Malaysia,2021,2121985,2121985.0,Refined/Articles
 74 Copper And Articles Thereof,Indonesia,2023,18118809,18118809.0,Refined/Articles
 74 Copper And Articles Thereof,Malaysia,2021,30267041,30267041.0,Refined/Articles
@@ -1460,14 +1460,14 @@ Commodities,Countries,Time,Customs Value (Gen) ($US) (Default Member),Customs Va
 76 Aluminum And Articles Thereof,Cambodia,2024,22819138,22819138.0,Refined/Articles
 76 Aluminum And Articles Thereof,Malaysia,2022,195926147,196006535.0,Refined/Articles
 76 Aluminum And Articles Thereof,Thailand,2021,619186643,610846473.0,Refined/Articles
-74 Copper And Articles Thereof,Philippines,2025 through June,7899927,7902583.0,Refined/Articles
+74 Copper And Articles Thereof,Philippines,2025,7899927,7902583.0,Refined/Articles
 75 Nickel And Articles Thereof,Philippines,2023,7605,7605.0,Refined/Articles
 80 Tin And Articles Thereof,Singapore,2024,1018253,1018253.0,Refined/Articles
-80 Tin And Articles Thereof,Vietnam,2025 through June,38693,38693.0,Refined/Articles
+80 Tin And Articles Thereof,Vietnam,2025,38693,38693.0,Refined/Articles
 80 Tin And Articles Thereof,Philippines,2021,53750,53750.0,Refined/Articles
-80 Tin And Articles Thereof,Philippines,2025 through June,11470,11470.0,Refined/Articles
-76 Aluminum And Articles Thereof,Singapore,2025 through June,3945779,2662177.0,Refined/Articles
-75 Nickel And Articles Thereof,Philippines,2025 through June,6191,6191.0,Refined/Articles
+80 Tin And Articles Thereof,Philippines,2025,11470,11470.0,Refined/Articles
+76 Aluminum And Articles Thereof,Singapore,2025,3945779,2662177.0,Refined/Articles
+75 Nickel And Articles Thereof,Philippines,2025,6191,6191.0,Refined/Articles
 75 Nickel And Articles Thereof,Philippines,2022,11834,11834.0,Refined/Articles
 76 Aluminum And Articles Thereof,Philippines,2021,9766849,9769902.0,Refined/Articles
 74 Copper And Articles Thereof,Singapore,2024,25377765,25376605.0,Refined/Articles
@@ -1478,7 +1478,7 @@ Commodities,Countries,Time,Customs Value (Gen) ($US) (Default Member),Customs Va
 76 Aluminum And Articles Thereof,Brunei,2022,3631,3631.0,Refined/Articles
 "8105 Cobalt Mattes Etc, Cobalt & Art, Inc Waste & Scrap",Vietnam,2022,239992,239992.0,Other
 "3910 Silicones, In Primary Forms",Cambodia,2024,838,838.0,Other
-"3910 Silicones, In Primary Forms",Singapore,2025 through June,7999,7999.0,Other
+"3910 Silicones, In Primary Forms",Singapore,2025,7999,7999.0,Other
 2846 Rare-earth Metal Compounds Of Yttrium Or Scandium,Singapore,2024,10512,10512.0,Compound
 8110 Antimony And Artcls Throf Incl Waste And Scrap,Indonesia,2021,233856,233856.0,Other
 "3910 Silicones, In Primary Forms",Singapore,2024,63637,63637.0,Other
@@ -1494,7 +1494,7 @@ Commodities,Countries,Time,Customs Value (Gen) ($US) (Default Member),Customs Va
 "8111 Manganese And Artcles Thereof, Inc Waste And Scrap",Indonesia,2023,3936631,3936631.0,Other
 "3910 Silicones, In Primary Forms",Singapore,2022,14092,14092.0,Other
 "3910 Silicones, In Primary Forms",Indonesia,2024,1980575,1980575.0,Other
-2820 Manganese Oxides,Indonesia,2025 through June,70000,70000.0,Compound
+2820 Manganese Oxides,Indonesia,2025,70000,70000.0,Compound
 "8108 Titanium & Articles Thereof, Includ Waste & Scrap",Thailand,2024,48811,39375.0,Refined/Articles
 8110 Antimony And Artcls Throf Incl Waste And Scrap,Philippines,2024,1950503,1950503.0,Other
 3801 Artificial Graphite; Collodial Graphite & Prep Etc,Malaysia,2021,913950,913950.0,Other
@@ -1502,9 +1502,9 @@ Commodities,Countries,Time,Customs Value (Gen) ($US) (Default Member),Customs Va
 2504 Natural Graphite,Indonesia,2024,72590,72590.0,Other
 7226 Fl-rl Alloy Steel Nesoi Un 600mm Wide,Malaysia,2024,3825,3825.0,Other
 7225 Fl-rl Alloy Steel Nesoi Nun 600mm Wide,Vietnam,2024,1337588,1337588.0,Other
-2504 Natural Graphite,Indonesia,2025 through June,7225570,7225570.0,Other
+2504 Natural Graphite,Indonesia,2025,7225570,7225570.0,Other
 2820 Manganese Oxides,Indonesia,2023,91380,91380.0,Compound
-"8108 Titanium & Articles Thereof, Includ Waste & Scrap",Vietnam,2025 through June,108203,108203.0,Refined/Articles
+"8108 Titanium & Articles Thereof, Includ Waste & Scrap",Vietnam,2025,108203,108203.0,Refined/Articles
 "8112 Beryllium,chromium,hafnium,rhenium Etc & Articles",Thailand,2024,122350,122350.0,Refined/Articles
 3801 Artificial Graphite; Collodial Graphite & Prep Etc,Singapore,2024,30091,30091.0,Other
 2846 Rare-earth Metal Compounds Of Yttrium Or Scandium,Vietnam,2024,40373,40373.0,Compound
@@ -1516,12 +1516,12 @@ Commodities,Countries,Time,Customs Value (Gen) ($US) (Default Member),Customs Va
 "3910 Silicones, In Primary Forms",Thailand,2021,30453659,31104869.0,Other
 8110 Antimony And Artcls Throf Incl Waste And Scrap,Thailand,2023,14333548,14333548.0,Other
 8110 Antimony And Artcls Throf Incl Waste And Scrap,Thailand,2021,9760666,9760666.0,Other
-"8105 Cobalt Mattes Etc, Cobalt & Art, Inc Waste & Scrap",Indonesia,2025 through June,27600621,27600621.0,Other
+"8105 Cobalt Mattes Etc, Cobalt & Art, Inc Waste & Scrap",Indonesia,2025,27600621,27600621.0,Other
 8110 Antimony And Artcls Throf Incl Waste And Scrap,Vietnam,2021,8671246,8671246.0,Other
 "8112 Beryllium,chromium,hafnium,rhenium Etc & Articles",Malaysia,2023,380728,380728.0,Refined/Articles
 "8112 Beryllium,chromium,hafnium,rhenium Etc & Articles",Singapore,2022,124723,124723.0,Refined/Articles
 2846 Rare-earth Metal Compounds Of Yttrium Or Scandium,Malaysia,2021,4434833,4434833.0,Compound
-"8112 Beryllium,chromium,hafnium,rhenium Etc & Articles",Malaysia,2025 through June,2025196,2025196.0,Refined/Articles
+"8112 Beryllium,chromium,hafnium,rhenium Etc & Articles",Malaysia,2025,2025196,2025196.0,Refined/Articles
 8110 Antimony And Artcls Throf Incl Waste And Scrap,Burma,2022,1092331,1092331.0,Other
 "3910 Silicones, In Primary Forms",Malaysia,2024,790056,790056.0,Other
 8110 Antimony And Artcls Throf Incl Waste And Scrap,Philippines,2023,435077,435077.0,Other
@@ -1536,45 +1536,45 @@ Commodities,Countries,Time,Customs Value (Gen) ($US) (Default Member),Customs Va
 "8108 Titanium & Articles Thereof, Includ Waste & Scrap",Malaysia,2024,946816,946816.0,Refined/Articles
 3801 Artificial Graphite; Collodial Graphite & Prep Etc,Indonesia,2024,512759,512759.0,Other
 "3910 Silicones, In Primary Forms",Vietnam,2023,3826129,3826129.0,Other
-8110 Antimony And Artcls Throf Incl Waste And Scrap,Thailand,2025 through June,37841109,37841109.0,Other
-3801 Artificial Graphite; Collodial Graphite & Prep Etc,Indonesia,2025 through June,45871004,45773804.0,Other
+8110 Antimony And Artcls Throf Incl Waste And Scrap,Thailand,2025,37841109,37841109.0,Other
+3801 Artificial Graphite; Collodial Graphite & Prep Etc,Indonesia,2025,45871004,45773804.0,Other
 "3910 Silicones, In Primary Forms",Singapore,2021,10988,10988.0,Other
-8110 Antimony And Artcls Throf Incl Waste And Scrap,Malaysia,2025 through June,1387293,1387293.0,Other
+8110 Antimony And Artcls Throf Incl Waste And Scrap,Malaysia,2025,1387293,1387293.0,Other
 7226 Fl-rl Alloy Steel Nesoi Un 600mm Wide,Singapore,2022,11866,11866.0,Other
 "8105 Cobalt Mattes Etc, Cobalt & Art, Inc Waste & Scrap",Singapore,2023,631517,631517.0,Other
 "7110 Platinum, Unwrought, Semimfr Forms Or In Powder Fm",Thailand,2021,21343,21343.0,Other
 8110 Antimony And Artcls Throf Incl Waste And Scrap,Thailand,2022,10097663,10097663.0,Other
 8110 Antimony And Artcls Throf Incl Waste And Scrap,Vietnam,2023,9468406,9468406.0,Other
 "3910 Silicones, In Primary Forms",Indonesia,2021,1731703,1731703.0,Other
-"3910 Silicones, In Primary Forms",Thailand,2025 through June,10879858,11045150.0,Other
+"3910 Silicones, In Primary Forms",Thailand,2025,10879858,11045150.0,Other
 "8108 Titanium & Articles Thereof, Includ Waste & Scrap",Indonesia,2024,1136686,1136686.0,Refined/Articles
 "7110 Platinum, Unwrought, Semimfr Forms Or In Powder Fm",Thailand,2022,9747,9747.0,Other
 3801 Artificial Graphite; Collodial Graphite & Prep Etc,Singapore,2021,120479,120479.0,Other
 "3910 Silicones, In Primary Forms",Vietnam,2024,5725122,5725122.0,Other
 "8105 Cobalt Mattes Etc, Cobalt & Art, Inc Waste & Scrap",Vietnam,2024,135637,135637.0,Other
-"8108 Titanium & Articles Thereof, Includ Waste & Scrap",Malaysia,2025 through June,430531,430531.0,Refined/Articles
+"8108 Titanium & Articles Thereof, Includ Waste & Scrap",Malaysia,2025,430531,430531.0,Refined/Articles
 7225 Fl-rl Alloy Steel Nesoi Nun 600mm Wide,Vietnam,2022,46752,46752.0,Other
 2504 Natural Graphite,Malaysia,2022,2308,2308.0,Other
 "8112 Beryllium,chromium,hafnium,rhenium Etc & Articles",Malaysia,2024,278587,278587.0,Refined/Articles
-3801 Artificial Graphite; Collodial Graphite & Prep Etc,Singapore,2025 through June,27986,27986.0,Other
+3801 Artificial Graphite; Collodial Graphite & Prep Etc,Singapore,2025,27986,27986.0,Other
 "8105 Cobalt Mattes Etc, Cobalt & Art, Inc Waste & Scrap",Singapore,2024,1043837,1043837.0,Other
 "8112 Beryllium,chromium,hafnium,rhenium Etc & Articles",Malaysia,2022,181509,181509.0,Refined/Articles
-"8112 Beryllium,chromium,hafnium,rhenium Etc & Articles",Singapore,2025 through June,482859,482859.0,Refined/Articles
+"8112 Beryllium,chromium,hafnium,rhenium Etc & Articles",Singapore,2025,482859,482859.0,Refined/Articles
 "8108 Titanium & Articles Thereof, Includ Waste & Scrap",Vietnam,2021,11120,11120.0,Refined/Articles
-2846 Rare-earth Metal Compounds Of Yttrium Or Scandium,Malaysia,2025 through June,1281021,1281021.0,Compound
+2846 Rare-earth Metal Compounds Of Yttrium Or Scandium,Malaysia,2025,1281021,1281021.0,Compound
 "3910 Silicones, In Primary Forms",Philippines,2023,5385,5385.0,Other
 3801 Artificial Graphite; Collodial Graphite & Prep Etc,Philippines,2022,12282,12282.0,Other
-"8105 Cobalt Mattes Etc, Cobalt & Art, Inc Waste & Scrap",Singapore,2025 through June,742277,742277.0,Other
+"8105 Cobalt Mattes Etc, Cobalt & Art, Inc Waste & Scrap",Singapore,2025,742277,742277.0,Other
 "8112 Beryllium,chromium,hafnium,rhenium Etc & Articles",Philippines,2021,3500,3500.0,Refined/Articles
 "8108 Titanium & Articles Thereof, Includ Waste & Scrap",Thailand,2021,400473,400473.0,Refined/Articles
 "8108 Titanium & Articles Thereof, Includ Waste & Scrap",Thailand,2023,139639,139639.0,Refined/Articles
 "8112 Beryllium,chromium,hafnium,rhenium Etc & Articles",Thailand,2022,39643,39643.0,Refined/Articles
-"8112 Beryllium,chromium,hafnium,rhenium Etc & Articles",Thailand,2025 through June,1175497,1175497.0,Refined/Articles
-3801 Artificial Graphite; Collodial Graphite & Prep Etc,Vietnam,2025 through June,20864,20864.0,Other
+"8112 Beryllium,chromium,hafnium,rhenium Etc & Articles",Thailand,2025,1175497,1175497.0,Refined/Articles
+3801 Artificial Graphite; Collodial Graphite & Prep Etc,Vietnam,2025,20864,20864.0,Other
 8110 Antimony And Artcls Throf Incl Waste And Scrap,Indonesia,2024,777077,777077.0,Other
-"8108 Titanium & Articles Thereof, Includ Waste & Scrap",Singapore,2025 through June,13735220,13735220.0,Refined/Articles
-"3910 Silicones, In Primary Forms",Indonesia,2025 through June,937714,937714.0,Other
-"3910 Silicones, In Primary Forms",Vietnam,2025 through June,6100254,6100254.0,Other
+"8108 Titanium & Articles Thereof, Includ Waste & Scrap",Singapore,2025,13735220,13735220.0,Refined/Articles
+"3910 Silicones, In Primary Forms",Indonesia,2025,937714,937714.0,Other
+"3910 Silicones, In Primary Forms",Vietnam,2025,6100254,6100254.0,Other
 "3910 Silicones, In Primary Forms",Thailand,2022,68531708,68531708.0,Other
 "8108 Titanium & Articles Thereof, Includ Waste & Scrap",Indonesia,2022,8693,8693.0,Refined/Articles
 "8108 Titanium & Articles Thereof, Includ Waste & Scrap",Malaysia,2022,231267,231267.0,Refined/Articles
@@ -1583,7 +1583,7 @@ Commodities,Countries,Time,Customs Value (Gen) ($US) (Default Member),Customs Va
 "7110 Platinum, Unwrought, Semimfr Forms Or In Powder Fm",Thailand,2023,9238,9238.0,Other
 "7110 Platinum, Unwrought, Semimfr Forms Or In Powder Fm",Philippines,2024,18139,18139.0,Other
 3801 Artificial Graphite; Collodial Graphite & Prep Etc,Malaysia,2023,4838539,4838539.0,Other
-7226 Fl-rl Alloy Steel Nesoi Un 600mm Wide,Thailand,2025 through June,155660,155660.0,Other
+7226 Fl-rl Alloy Steel Nesoi Un 600mm Wide,Thailand,2025,155660,155660.0,Other
 "8111 Manganese And Artcles Thereof, Inc Waste And Scrap",Indonesia,2022,1133369,1133369.0,Other
 7226 Fl-rl Alloy Steel Nesoi Un 600mm Wide,Thailand,2023,234984,234984.0,Other
 8110 Antimony And Artcls Throf Incl Waste And Scrap,Vietnam,2024,14485867,14485867.0,Other
@@ -1599,12 +1599,12 @@ Commodities,Countries,Time,Customs Value (Gen) ($US) (Default Member),Customs Va
 "3910 Silicones, In Primary Forms",Indonesia,2023,260287,260287.0,Other
 "8105 Cobalt Mattes Etc, Cobalt & Art, Inc Waste & Scrap",Thailand,2023,88508,88508.0,Other
 "3910 Silicones, In Primary Forms",Philippines,2024,3586,3586.0,Other
-"3910 Silicones, In Primary Forms",Malaysia,2025 through June,343670,343670.0,Other
+"3910 Silicones, In Primary Forms",Malaysia,2025,343670,343670.0,Other
 "3910 Silicones, In Primary Forms",Thailand,2024,30555192,31184149.0,Other
 2820 Manganese Oxides,Indonesia,2024,490000,490000.0,Compound
 3801 Artificial Graphite; Collodial Graphite & Prep Etc,Malaysia,2024,502915,502915.0,Other
-2846 Rare-earth Metal Compounds Of Yttrium Or Scandium,Vietnam,2025 through June,573625,573625.0,Compound
-"8111 Manganese And Artcles Thereof, Inc Waste And Scrap",Indonesia,2025 through June,1850041,1850041.0,Other
+2846 Rare-earth Metal Compounds Of Yttrium Or Scandium,Vietnam,2025,573625,573625.0,Compound
+"8111 Manganese And Artcles Thereof, Inc Waste And Scrap",Indonesia,2025,1850041,1850041.0,Other
 "2801 Fluorine, Chlorine, Bromine & Iodine",Singapore,2023,3995,3995.0,Other
 "8105 Cobalt Mattes Etc, Cobalt & Art, Inc Waste & Scrap",Indonesia,2024,3593558,3593558.0,Other
 8110 Antimony And Artcls Throf Incl Waste And Scrap,Burma,2021,2826505,3092476.0,Other
@@ -1623,46 +1623,46 @@ Commodities,Countries,Time,Customs Value (Gen) ($US) (Default Member),Customs Va
 2846 Rare-earth Metal Compounds Of Yttrium Or Scandium,Singapore,2023,28118,28118.0,Compound
 "7110 Platinum, Unwrought, Semimfr Forms Or In Powder Fm",Thailand,2024,19097,19097.0,Other
 3801 Artificial Graphite; Collodial Graphite & Prep Etc,Singapore,2023,34790,34790.0,Other
-"7110 Platinum, Unwrought, Semimfr Forms Or In Powder Fm",Singapore,2025 through June,22349125,22349125.0,Other
-"3910 Silicones, In Primary Forms",Philippines,2025 through June,6459,6459.0,Other
+"7110 Platinum, Unwrought, Semimfr Forms Or In Powder Fm",Singapore,2025,22349125,22349125.0,Other
+"3910 Silicones, In Primary Forms",Philippines,2025,6459,6459.0,Other
 "3910 Silicones, In Primary Forms",Vietnam,2022,19123559,19123559.0,Other
-7225 Fl-rl Alloy Steel Nesoi Nun 600mm Wide,Thailand,2025 through June,114401,114401.0,Other
+7225 Fl-rl Alloy Steel Nesoi Nun 600mm Wide,Thailand,2025,114401,114401.0,Other
 "8112 Beryllium,chromium,hafnium,rhenium Etc & Articles",Singapore,2024,295336,295336.0,Refined/Articles
 "8108 Titanium & Articles Thereof, Includ Waste & Scrap",Vietnam,2024,64533,64533.0,Refined/Articles
-8110 Antimony And Artcls Throf Incl Waste And Scrap,Vietnam,2025 through June,9318779,9318779.0,Other
+8110 Antimony And Artcls Throf Incl Waste And Scrap,Vietnam,2025,9318779,9318779.0,Other
 8110 Antimony And Artcls Throf Incl Waste And Scrap,Burma,2023,4220972,4220972.0,Other
 7226 Fl-rl Alloy Steel Nesoi Un 600mm Wide,Vietnam,2022,611057,0.0,Other
 "3910 Silicones, In Primary Forms",Indonesia,2022,7197915,7197915.0,Other
 8110 Antimony And Artcls Throf Incl Waste And Scrap,Vietnam,2022,9685574,9685574.0,Other
-"7110 Platinum, Unwrought, Semimfr Forms Or In Powder Fm",Thailand,2025 through June,3317,3317.0,Other
+"7110 Platinum, Unwrought, Semimfr Forms Or In Powder Fm",Thailand,2025,3317,3317.0,Other
 2846 Rare-earth Metal Compounds Of Yttrium Or Scandium,Malaysia,2024,1641511,1641511.0,Compound
 3801 Artificial Graphite; Collodial Graphite & Prep Etc,Vietnam,2024,30194,30194.0,Other
 7225 Fl-rl Alloy Steel Nesoi Nun 600mm Wide,Malaysia,2021,10218,10218.0,Other
 "8108 Titanium & Articles Thereof, Includ Waste & Scrap",Philippines,2021,17856,17856.0,Refined/Articles
 "8112 Beryllium,chromium,hafnium,rhenium Etc & Articles",Vietnam,2021,35000,35000.0,Refined/Articles
 2504 Natural Graphite,Thailand,2024,10094,10094.0,Other
-2604 Nickel Ores And Concentrates,Singapore,2025 through June,2145,2145.0,Ore/Raw
+2604 Nickel Ores And Concentrates,Singapore,2025,2145,2145.0,Ore/Raw
 "8108 Titanium & Articles Thereof, Includ Waste & Scrap",Malaysia,2023,703171,703171.0,Refined/Articles
-"8108 Titanium & Articles Thereof, Includ Waste & Scrap",Thailand,2025 through June,48279,30926.0,Refined/Articles
-8110 Antimony And Artcls Throf Incl Waste And Scrap,Philippines,2025 through June,1534597,1534597.0,Other
+"8108 Titanium & Articles Thereof, Includ Waste & Scrap",Thailand,2025,48279,30926.0,Refined/Articles
+8110 Antimony And Artcls Throf Incl Waste And Scrap,Philippines,2025,1534597,1534597.0,Other
 8110 Antimony And Artcls Throf Incl Waste And Scrap,Thailand,2024,29835106,29835106.0,Other
-282520 Lithium Oxide And Hydroxide,Indonesia,2025 through June,2914,2914.0,Compound
+282520 Lithium Oxide And Hydroxide,Indonesia,2025,2914,2914.0,Compound
 282540 Nickel Oxides And Hydroxides,Indonesia,2021,130897,130897.0,Compound
 282540 Nickel Oxides And Hydroxides,Philippines,2021,3118614,3118614.0,Compound
 282540 Nickel Oxides And Hydroxides,Philippines,2022,5109533,5109533.0,Compound
 282540 Nickel Oxides And Hydroxides,Philippines,2023,4948652,4948652.0,Compound
 282540 Nickel Oxides And Hydroxides,Philippines,2024,1794945,1794945.0,Compound
-282540 Nickel Oxides And Hydroxides,Philippines,2025 through June,1310775,1310775.0,Compound
+282540 Nickel Oxides And Hydroxides,Philippines,2025,1310775,1310775.0,Compound
 282580 Antimony Oxides,Thailand,2021,1992500,1992500.0,Compound
 282580 Antimony Oxides,Thailand,2023,2160000,2160000.0,Compound
 282580 Antimony Oxides,Thailand,2024,5400000,5400000.0,Compound
-282580 Antimony Oxides,Thailand,2025 through June,12342000,12342000.0,Compound
+282580 Antimony Oxides,Thailand,2025,12342000,12342000.0,Compound
 "711041 Iridium, Osmium And Ruthenium, Unwrought Or Powder",Singapore,2022,4823,4823.0,Other
 "711049 Iridium, Osmium And Ruthenium, Semimanufactured",Singapore,2021,9815,9815.0,Other
 "711049 Iridium, Osmium And Ruthenium, Semimanufactured",Thailand,2023,6500,6500.0,Other
 "711049 Iridium, Osmium And Ruthenium, Semimanufactured",Singapore,2023,79778,79778.0,Other
 "711049 Iridium, Osmium And Ruthenium, Semimanufactured",Philippines,2024,9548,9548.0,Other
-"711049 Iridium, Osmium And Ruthenium, Semimanufactured",Singapore,2025 through June,1116612,1116612.0,Other
+"711049 Iridium, Osmium And Ruthenium, Semimanufactured",Singapore,2025,1116612,1116612.0,Other
 850511 Permanent Magnets Made Of Metal,Thailand,2021,792057,792057.0,Advanced Product
 850511 Permanent Magnets Made Of Metal,Vietnam,2021,169873,178933.0,Advanced Product
 850511 Permanent Magnets Made Of Metal,Cambodia,2021,99111,99111.0,Advanced Product
@@ -1690,13 +1690,13 @@ Commodities,Countries,Time,Customs Value (Gen) ($US) (Default Member),Customs Va
 850511 Permanent Magnets Made Of Metal,Singapore,2024,1753736,1753736.0,Advanced Product
 850511 Permanent Magnets Made Of Metal,Indonesia,2024,6185995,6185995.0,Advanced Product
 850511 Permanent Magnets Made Of Metal,Philippines,2024,8894106,9198547.0,Advanced Product
-850511 Permanent Magnets Made Of Metal,Thailand,2025 through June,224345,224345.0,Advanced Product
-850511 Permanent Magnets Made Of Metal,Vietnam,2025 through June,545050,372735.0,Advanced Product
-850511 Permanent Magnets Made Of Metal,Cambodia,2025 through June,141337,141337.0,Advanced Product
-850511 Permanent Magnets Made Of Metal,Malaysia,2025 through June,569578,569578.0,Advanced Product
-850511 Permanent Magnets Made Of Metal,Singapore,2025 through June,253272,253272.0,Advanced Product
-850511 Permanent Magnets Made Of Metal,Indonesia,2025 through June,3548515,3548515.0,Advanced Product
-850511 Permanent Magnets Made Of Metal,Philippines,2025 through June,2713846,2713846.0,Advanced Product
+850511 Permanent Magnets Made Of Metal,Thailand,2025,224345,224345.0,Advanced Product
+850511 Permanent Magnets Made Of Metal,Vietnam,2025,545050,372735.0,Advanced Product
+850511 Permanent Magnets Made Of Metal,Cambodia,2025,141337,141337.0,Advanced Product
+850511 Permanent Magnets Made Of Metal,Malaysia,2025,569578,569578.0,Advanced Product
+850511 Permanent Magnets Made Of Metal,Singapore,2025,253272,253272.0,Advanced Product
+850511 Permanent Magnets Made Of Metal,Indonesia,2025,3548515,3548515.0,Advanced Product
+850511 Permanent Magnets Made Of Metal,Philippines,2025,2713846,2713846.0,Advanced Product
 "850650 Primary Cells And Batteries, Lithium",Thailand,2021,996749,993961.0,Other
 "850650 Primary Cells And Batteries, Lithium",Vietnam,2021,51139,51139.0,Other
 "850650 Primary Cells And Batteries, Lithium",Malaysia,2021,709423,816660.0,Other
@@ -1721,9 +1721,9 @@ Commodities,Countries,Time,Customs Value (Gen) ($US) (Default Member),Customs Va
 "850650 Primary Cells And Batteries, Lithium",Singapore,2024,73322500,75821037.0,Other
 "850650 Primary Cells And Batteries, Lithium",Indonesia,2024,25288668,33566571.0,Other
 "850650 Primary Cells And Batteries, Lithium",Philippines,2024,1024288,1026901.0,Other
-"850650 Primary Cells And Batteries, Lithium",Thailand,2025 through June,1062973,1062973.0,Other
-"850650 Primary Cells And Batteries, Lithium",Vietnam,2025 through June,662071,662071.0,Other
-"850650 Primary Cells And Batteries, Lithium",Malaysia,2025 through June,388703,439829.0,Other
-"850650 Primary Cells And Batteries, Lithium",Singapore,2025 through June,28665432,28667842.0,Other
-"850650 Primary Cells And Batteries, Lithium",Indonesia,2025 through June,14658607,17932297.0,Other
-"850650 Primary Cells And Batteries, Lithium",Philippines,2025 through June,103163,105641.0,Other
+"850650 Primary Cells And Batteries, Lithium",Thailand,2025,1062973,1062973.0,Other
+"850650 Primary Cells And Batteries, Lithium",Vietnam,2025,662071,662071.0,Other
+"850650 Primary Cells And Batteries, Lithium",Malaysia,2025,388703,439829.0,Other
+"850650 Primary Cells And Batteries, Lithium",Singapore,2025,28665432,28667842.0,Other
+"850650 Primary Cells And Batteries, Lithium",Indonesia,2025,14658607,17932297.0,Other
+"850650 Primary Cells And Batteries, Lithium",Philippines,2025,103163,105641.0,Other

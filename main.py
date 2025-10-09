@@ -23,10 +23,13 @@ merged_df = merged_df[important_cols]
 merged_df.to_csv("merged_filtered.csv", index=False)
 
 print(merged_df.columns)
+
+merged_df["Commodities"] = merged_df["Commodities"].str.strip()
 commod_list = merged_df["Commodities"].unique().tolist()
 print(commod_list)
 print(len(commod_list))
 
+#Custom classification method
 def classify_commodity(commodity):
     if "Ore" in commodity or "Concentrates" in commodity:
         return "Ore/Raw"
@@ -38,10 +41,20 @@ def classify_commodity(commodity):
         return "Advanced Product"
     else:
         return "Other"
-
+#Feature engineering a new column for category type
 merged_df["CategoryType"] = merged_df["Commodities"].apply(classify_commodity)
 
-print(merged_df.isna().sum())
+#Converting time to numeric
+merged_df["Time"] = merged_df["Time"].replace("2025 through June", "2025")
+merged_df["Time"] = merged_df["Time"].astype(int)
+
+#Converting import value to numeric
+merged_df["Customs Value (Gen) ($US) (Default Member)"] = pd.to_numeric(merged_df["Customs Value (Gen) ($US) (Default Member)"])
+
+merged_df.to_csv("merged_filtered_classified.csv", index=False)
+
+#206 missing values for Customs Value (Cons) but 0 for the rest
+print(f"Number of Missing Values: \n{merged_df.isna().sum()}")
 
 print(merged_df["Countries"].unique())
 
@@ -79,3 +92,62 @@ plt.show()
 # By category type
 imports_by_category.plot(kind="pie", autopct="%1.1f%%", title="Import Breakdown by Category Type")
 plt.show()
+
+#0 duplicates
+print(f"Number of Duplicates: \n{merged_df.duplicated().sum()}")
+
+#Top commodities per region
+top_southeast_commodities = (
+    southeast_countries_df.groupby("Commodities")["Customs Value (Gen) ($US) (Default Member)"]
+    .sum()
+    .sort_values(ascending=False)
+    .head(10)
+)
+top_southeast_commodities.plot(kind="barh", title="Top 10 Commodities - Southeast Asia", xlabel="Value ($US)")
+plt.show()
+
+#Growth in Imports
+imports_by_year_diff = imports_by_year.diff()  
+imports_by_year_pct = imports_by_year.pct_change() * 100  
+
+print("Year-over-year change in imports:")
+print(imports_by_year_diff)
+print("\nYear-over-year % change:")
+print(imports_by_year_pct)
+
+
+imports_by_year_pct.plot(kind="bar", title="YoY % Change in Total Imports", ylabel="% Change")
+plt.show()
+
+#Commodity Breakdown
+imports_by_year_category = (
+    merged_df.groupby(["Time", "CategoryType"])["Customs Value (Gen) ($US) (Default Member)"]
+    .sum()
+    .unstack(fill_value=0)  # Each category becomes a column
+)
+
+imports_by_year_category.plot(kind="area", stacked=True, figsize=(12,6), title="Imports by Category Over Time", ylabel="Value ($US)")
+plt.show()
+
+#Average imports per country
+avg_imports_per_country = merged_df.groupby("Countries")["Customs Value (Gen) ($US) (Default Member)"].mean().sort_values(ascending=False)
+print(avg_imports_per_country)
+
+avg_imports_per_country.head(10).plot(kind="barh", title="Top 10 Countries by Average Import Value")
+plt.show()
+
+#Categories by Region
+southeast_category_share = (
+    southeast_countries_df.groupby("CategoryType")["Customs Value (Gen) ($US) (Default Member)"].sum()
+)
+southeast_category_share.plot(kind="pie", autopct="%1.1f%%", title="Southeast Asia Imports by Category")
+plt.show()
+
+# Total import per commodity per year
+imports_commodity_year = merged_df.groupby(["Time", "Commodities"])["Customs Value (Gen) ($US) (Default Member)"].sum().unstack(fill_value=0)
+
+# Percentage growth from first to last year
+growth = (imports_commodity_year.iloc[-1] - imports_commodity_year.iloc[0]) / imports_commodity_year.iloc[0] * 100
+top_growth = growth.sort_values(ascending=False).head(10)
+print("Top 10 fastest growing commodities (% increase from first year to last):")
+print(top_growth)
