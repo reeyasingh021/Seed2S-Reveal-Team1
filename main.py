@@ -29,6 +29,9 @@ commod_list = merged_df["Commodities"].unique().tolist()
 print(commod_list)
 print(len(commod_list))
 
+merged_df["HS_Code"] = merged_df["Commodities"].str.split().str[0]
+merged_df["HS_Code"] = merged_df["HS_Code"].astype(str)
+
 #Custom classification method
 def classify_commodity(commodity):
     if "Ore" in commodity or "Concentrates" in commodity:
@@ -51,22 +54,36 @@ merged_df["Time"] = merged_df["Time"].astype(int)
 #Converting import value to numeric
 merged_df["Customs Value (Gen) ($US) (Default Member)"] = pd.to_numeric(merged_df["Customs Value (Gen) ($US) (Default Member)"])
 
+#Sort numerically by HS code
+merged_df = merged_df.sort_values(by="HS_Code")
+
 merged_df.to_csv("merged_filtered_classified.csv", index=False)
+
+# subsection: number of digits in HS code
+df_2digit = merged_df[merged_df["HS_Code"].str.len() == 2]
+df_4digit = merged_df[merged_df["HS_Code"].str.len() == 4]
+df_6digit = merged_df[merged_df["HS_Code"].str.len() == 6]
+
+df_2digit.to_csv("hs2digit_data.csv", index=False)
+df_4digit.to_csv("hs4digit_data.csv", index=False)
+df_6digit.to_csv("hs6digit_data.csv", index=False)
 
 #206 missing values for Customs Value (Cons) but 0 for the rest
 print(f"Number of Missing Values: \n{merged_df.isna().sum()}")
 
 print(merged_df["Countries"].unique())
 
+# subsection: regions
 organizations = ["Asia - South", "APEC - Asia Pacific Economic Co-operation", "ASEAN - Association of Southeast Asian Nations"]
 filtered_regions_df = merged_df[merged_df["Countries"].isin(organizations)]
 filtered_regions_df.to_csv("filtered_regions.csv", index = False)
 
-
+# subsection: southeast asia
 southeast = ["Singapore", "Indonesia", "Vietnam", "Philippines", "Brunei", "Malaysia", "Thailand", "Cambodia", "Laos", "Burma"]
 southeast_countries_df = merged_df[merged_df["Countries"].isin(southeast)]
 southeast_countries_df.to_csv("southeast_countries.csv", index = False)
 
+# subsection: east asia
 east = ["Taiwan", "Korea, South", "Hong Kong", "Japan", "Macau", "Mongolia"]
 east_countries_df = merged_df[merged_df["Countries"].isin(east)]
 east_countries_df.to_csv("east_countries.csv", index = False)
