@@ -1,17 +1,16 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import streamlit as st
 
 files = ["data1.csv", "data2.csv", "data3.csv"]
 
 dfs = [pd.read_csv(f) for f in files]
 merged_df = pd.concat(dfs, ignore_index = True)
 
-remove = ["Bhutan", "Maldives"]
+remove = ["Bhutan", "Maldives","ASEAN - Association of Southeast Asian Nations","APEC - Asia Pacific Economic Co-operation","Asia - South"]
 merged_df = merged_df[~merged_df["Countries"].isin(remove)]
 
 merged_df.to_csv("merged_data.csv", index = False)
-
-
 
 important_cols = ["Commodities",
     "Countries",
@@ -117,11 +116,6 @@ print(f"Number of Missing Values: \n{merged_df.isna().sum()}")
 
 print(merged_df["Countries"].unique())
 
-# subsection: regions
-organizations = ["Asia - South", "APEC - Asia Pacific Economic Co-operation", "ASEAN - Association of Southeast Asian Nations"]
-filtered_regions_df = merged_df[merged_df["Countries"].isin(organizations)]
-filtered_regions_df.to_csv("filtered_regions.csv", index = False)
-
 # subsection: southeast asia
 southeast = ["Singapore", "Indonesia", "Vietnam", "Philippines", "Brunei", "Malaysia", "Thailand", "Cambodia", "Laos", "Burma"]
 southeast_countries_df = merged_df[merged_df["Countries"].isin(southeast)]
@@ -212,3 +206,6 @@ growth = (imports_commodity_year.iloc[-1] - imports_commodity_year.iloc[0]) / im
 top_growth = growth.sort_values(ascending=False).head(10)
 print("Top 10 fastest growing commodities (% increase from first year to last):")
 print(top_growth)
+
+
+
