@@ -3,6 +3,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import matplotlib.pyplot as plt
+import matplotlib.ticker as mtick
 import seaborn as sns
 import pydeck as pdk
 
@@ -11,7 +12,7 @@ import pydeck as pdk
 # -------------------------------
 st.set_page_config(
     page_title="Critical Minerals Dashboard",
-    page_icon="🔩",
+    page_icon="⛏️",
     layout="wide"
 )
 
@@ -87,7 +88,7 @@ data = data[
 # -------------------------------
 # DASHBOARD TITLE
 # -------------------------------
-st.title("🔩 Critical Minerals Trade Dashboard")
+st.title("⛏️ Critical Minerals Trade Dashboard")
 st.markdown(f"### Region: **{region}**  |  Years: **{year_range[0]} - {year_range[1]}**")
 
 # -------------------------------
@@ -96,11 +97,12 @@ st.markdown(f"### Region: **{region}**  |  Years: **{year_range[0]} - {year_rang
 col1, col2, col3, col4 = st.columns(4)
 
 total_imports = data["Customs Value (Gen) ($US) (Default Member)"].sum()
+total_imports_billions = total_imports/1000000000
 top_country = data.groupby("Countries")["Customs Value (Gen) ($US) (Default Member)"].sum().idxmax()
-top_commodity = data.groupby("Commodities")["Customs Value (Gen) ($US) (Default Member)"].sum().idxmax()
+top_commodity = data.groupby("critical_mineral")["Customs Value (Gen) ($US) (Default Member)"].sum().idxmax()
 
-col1.metric("🌎 Total Import Value (USD)", f"{total_imports:,.0f}")
-col2.metric("🏳️‍🌈 Top Importing Country", top_country)
+col1.metric("💵 Total Import Value (USD)", f"{total_imports_billions:,.2f}B")
+col2.metric("🌎 Top Importing Country", top_country)
 col3.metric("⚙️ Top Commodity", top_commodity)
 col4.metric("Total Countries", data["Countries"].nunique())
 
@@ -118,6 +120,10 @@ fig_time = px.line(
     y="Customs Value (Gen) ($US) (Default Member)",
     title="Total Imports Over Time",
     markers=True,
+    labels={
+        "Time":"Year",
+        "Customs Value (Gen) ($US) (Default Member)":"Customs Value (USD in Billions)"
+    }
 )
 st.plotly_chart(fig_time, use_container_width=True)
 
@@ -151,6 +157,10 @@ fig_mineral = px.bar(
     y="critical_mineral",
     orientation="h",
     title="Imports by Critical Mineral",
+    labels={
+        "critical_mineral":"Critical Mineral",
+        "Customs Value (Gen) ($US) (Default Member)":"Customs Value (USD)"
+    }
 )
 st.plotly_chart(fig_mineral, use_container_width=True)
 
@@ -169,6 +179,9 @@ fig_commodity = px.bar(
     y="Commodities",
     orientation="h",
     title="Top 10 Commodities",
+    labels={
+        "Customs Value (Gen) ($US) (Default Member)":"Customs Value (USD)"
+    }
 )
 st.plotly_chart(fig_commodity, use_container_width=True)
 
@@ -187,6 +200,9 @@ fig_country = px.bar(
     y="Countries",
     orientation="h",
     title="Top 10 Countries",
+    labels={
+        "Customs Value (Gen) ($US) (Default Member)":"Customs Value (USD)"
+    }
 )
 st.plotly_chart(fig_country, use_container_width=True)
 
@@ -222,9 +238,13 @@ if not df_mineral.empty:
         total_by_year = pivot_data.groupby("Time")["Customs Value (Gen) ($US) (Default Member)"].transform("sum")
         pivot_data["Value"] = (pivot_data["Customs Value (Gen) ($US) (Default Member)"] / total_by_year) * 100
         ylabel = "Percentage of Total Imports (%)"
+        use_formatter=False
     else:
         pivot_data["Value"] = pivot_data["Customs Value (Gen) ($US) (Default Member)"]
-        ylabel = "Import Value ($US)"
+        ylabel = "Import Value (USD)"
+        use_formatter=True
+
+    plt.style.use('dark_background')
 
     fig, ax = plt.subplots(figsize=(12, 6))
     for country in pivot_data["Countries"].unique():
@@ -233,11 +253,20 @@ if not df_mineral.empty:
             pivot_data[pivot_data["Countries"] == country]["Value"],
             marker='o', label=country, linewidth=2
         )
-    ax.set_xlabel("Year")
-    ax.set_ylabel(ylabel)
-    ax.set_title(f"{selected_mineral} Imports by Country")
+    ax.set_xlabel("Year", color='white')
+    ax.set_ylabel(ylabel,color='white')
+    ax.set_title(f"{selected_mineral} Imports by Country",color='white')
     ax.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
-    ax.grid(True, alpha=0.3)
+    ax.grid(True, alpha=0.3,color='gray')
+    if use_formatter:
+        def human_format(x, pos):
+            if x >= 1e9:
+                return f'{x/1e9:.1f}B'
+            elif x >= 1e6:
+                return f'{x/1e6:.1f}M'
+            else:
+                return f'{x:,.0f}'
+        ax.yaxis.set_major_formatter(mtick.FuncFormatter(human_format))
     plt.tight_layout()
     st.pyplot(fig)
 else:
@@ -246,17 +275,32 @@ else:
 # 2. Top Minerals by Import Volume
 st.subheader("2️⃣ Top Minerals by Import Volume")
 top_n = st.slider("Number of top minerals to display", 5, 20, 10)
+
 mineral_imports = (
     data.groupby("critical_mineral")["Customs Value (Gen) ($US) (Default Member)"]
     .sum()
     .sort_values(ascending=False)
     .head(top_n)
 )
+
 fig, ax = plt.subplots(figsize=(12, 6))
 mineral_imports.plot(kind='barh', ax=ax, color='steelblue')
-ax.set_xlabel("Import Value ($US)")
+
+ax.set_xlabel("Import Value (USD)")
 ax.set_ylabel("Critical Mineral")
 ax.set_title(f"Top {top_n} Critical Minerals by Import Value")
+
+# Format x-axis as M or B
+def human_format(x, pos):
+    if x >= 1e9:
+        return f'{x/1e9:.1f}B'
+    elif x >= 1e6:
+        return f'{x/1e6:.1f}M'
+    else:
+        return f'{x:,.0f}'
+
+ax.xaxis.set_major_formatter(mtick.FuncFormatter(human_format))
+
 plt.tight_layout()
 st.pyplot(fig)
 
