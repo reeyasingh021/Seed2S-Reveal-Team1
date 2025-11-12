@@ -317,9 +317,28 @@ heatmap_data = df_heatmap.groupby(["Countries", "critical_mineral"])["Customs Va
 heatmap_pivot = heatmap_data.pivot(index="Countries", columns="critical_mineral", values="Customs Value (Gen) ($US) (Default Member)").fillna(0)
 
 if not heatmap_pivot.empty:
-    fig, ax = plt.subplots(figsize=(14, 8))
-    sns.heatmap(heatmap_pivot, cmap="YlOrRd", ax=ax, cbar_kws={'label': 'Import Value ($US)'})
-    ax.set_title(f"Import Values Heatmap: {heatmap_mineral} ({year_min}-{year_max})")
+    fig, ax = plt.subplots(figsize=(14, 8), facecolor='black')
+    ax.set_facecolor('black')
+    
+    sns.heatmap(heatmap_pivot, cmap="Blues", ax=ax, 
+                cbar_kws={'label': 'Import Value ($US)'})
+    
+    # Style the colorbar
+    cbar = ax.collections[0].colorbar
+    cbar.ax.yaxis.label.set_color('white')
+    cbar.ax.tick_params(colors='white')
+    
+    # Style title and labels
+    ax.set_title(f"Import Values Heatmap: {heatmap_mineral} ({year_min}-{year_max})", 
+                 color='white', fontsize=14, pad=20)
+    ax.set_xlabel(ax.get_xlabel(), color='white')
+    ax.set_ylabel(ax.get_ylabel(), color='white')
+    ax.tick_params(colors='white')
+    
+    # Make tick labels white
+    plt.setp(ax.get_xticklabels(), color='white')
+    plt.setp(ax.get_yticklabels(), color='white')
+    
     plt.tight_layout()
     st.pyplot(fig)
 else:
