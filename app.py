@@ -122,7 +122,7 @@ fig_time = px.line(
     markers=True,
     labels={
         "Time":"Year",
-        "Customs Value (Gen) ($US) (Default Member)":"Customs Value (USD in Billions)"
+        "Customs Value (Gen) ($US) (Default Member)":"Customs Value (USD)"
     }
 )
 st.plotly_chart(fig_time, use_container_width=True)
