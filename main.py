@@ -115,6 +115,7 @@ df_6digit.to_csv("hs6digit_data.csv", index=False)
 print(f"Number of Missing Values: \n{merged_df.isna().sum()}")
 
 print(merged_df["Countries"].unique())
+print(merged_df["critical_mineral"].unique())
 
 # subsection: southeast asia
 southeast = ["Singapore", "Indonesia", "Vietnam", "Philippines", "Brunei", "Malaysia", "Thailand", "Cambodia", "Laos", "Burma"]
