@@ -46,15 +46,141 @@ merged_df, east_df, southeast_df = load_data()
 # -------------------------------
 if st.session_state.page == "Landing Page":
     st.title("⛏️ Welcome to the Critical Minerals Trade Dashboard")
-    st.markdown("""
-    This dashboard provides insights into the import trends of critical minerals across East and Southeast Asia.
+    # st.markdown("""
+    # This dashboard provides insights into the import trends of critical minerals across East and Southeast Asia.
 
-    **You will be able to:**
-    - Analyze import trends over time
-    - Explore top minerals and commodities
-    - Visualize trade flows by country
-    - Compare year-over-year growth and distributions
-    """)
+    # **You will be able to:**
+    # - Analyze import trends over time
+    # - Explore top minerals and commodities
+    # - Visualize trade flows by country
+    # - Compare year-over-year growth and distributions
+    # """)
+
+    st.markdown("""
+This dashboard provides comprehensive insights into **U.S. import trends of critical minerals from East and Southeast Asia**, covering trade flows from **2001 to 2025**. Critical minerals are essential components in modern defense systems, renewable energy technologies, advanced electronics, and key manufacturing sectors. Understanding import patterns, supply chain dependencies, and market volatility is crucial for assessing **economic resilience** and **national security vulnerabilities**.
+
+### You will be able to:
+- Analyze import trends over time and identify periods of growth, decline, and volatility  
+- Explore top minerals and commodities by import value and volume  
+- Visualize trade flows by country and region to identify concentration risks  
+- Compare year-over-year growth rates and categorical distributions  
+- Examine supply chain structures across raw materials, refined products, and advanced components  
+
+---
+
+## **What Are Critical Minerals?**
+The U.S. Geological Survey defines critical minerals as minerals that are:
+
+- Essential to the economic or national security of the United States  
+- Have a supply chain that is vulnerable to disruption  
+- Serve an essential function in the manufacturing of a product, the absence of which would have significant consequences for the U.S.
+
+Critical minerals include materials such as **lithium** (batteries), **rare earth elements** (magnets & electronics), **cobalt** (energy storage), **copper** (electrical infrastructure), and many others. These minerals underpin modern technology and defense capabilities.  
+Unlike abundant commodities, critical minerals often have **concentrated production**, limited processing facilities, and complex supply chains vulnerable to **geopolitical tensions**, **natural disasters**, and **market volatility**.
+
+---
+
+## **Understanding HS Codes**
+This dashboard uses **Harmonized System (HS)** codes to classify and track trade data.
+
+**HS Code Structure:**
+- **2-digit:** Broad category (e.g., *"74"* = Copper and articles thereof)  
+- **4-digit:** Subcategory (e.g., *"7403"* = Refined copper and alloys)  
+- **6-digit:** Most detailed level (e.g., *"740311"* = Copper cathodes)
+
+Using all three levels allows the dashboard to capture both **broad patterns** and **specific commodity flows**, from raw ores to refined metals and manufactured products.
+
+---
+
+## **Regional Classifications**
+
+For this analysis, countries are grouped into two regions:
+
+### **East Asia**
+- Japan  
+- South Korea  
+- Taiwan  
+- Hong Kong  
+- Macau  
+- Mongolia  
+
+### **Southeast Asia**
+- Indonesia  
+- Vietnam  
+- Thailand  
+- Singapore  
+- Malaysia  
+- Philippines  
+- Cambodia  
+- Laos  
+- Burma (Myanmar)  
+- Brunei  
+
+These groupings allow comparative analysis between advanced manufacturing economies (East Asia) and developing, resource-rich nations (Southeast Asia).
+
+### **Note on China's Exclusion**
+China is intentionally excluded despite its dominant global role.  
+This allows clearer analysis of:
+
+- Alternative supply chain networks  
+- Diversification pathways  
+- Non-Chinese regional dynamics  
+
+Future versions may incorporate China as a benchmark.
+
+---
+
+## **Category Classifications**
+Commodities in the dataset are grouped into five processing-level categories:
+
+- **Ore/Raw:** Unprocessed ores & concentrates  
+- **Compound:** Chemical compounds and oxides  
+- **Refined/Articles:** Refined metals and industrial articles  
+- **Advanced Product:** High-value finished products (batteries, magnets, components)  
+- **Other:** Items not fitting the above categories  
+
+This classification reveals **where value is added** in the supply chain and highlights dependencies at different stages.
+
+---
+
+## **How to Use This Dashboard**
+Use the **sidebar filters** to customize your analysis:
+
+- Select graphs, regions, time periods, category types, and minerals  
+- All visualizations update dynamically  
+- The interactive map supports mineral-specific filtering  
+
+Key metrics at the top display:
+
+- Total import values  
+- Leading countries  
+- Top commodities  
+- Regional coverage  
+
+These update based on your selections.
+
+---
+
+## **Why This Matters**
+Understanding critical mineral trade flows is essential for **national security** and **economic resilience**.
+
+Disruptions—whether due to conflict, disasters, or market manipulation—can halt production of:
+
+- Military equipment  
+- Renewable energy systems  
+- Advanced electronics  
+- Infrastructure components  
+
+By identifying concentration risks, processing dependencies, and volatility patterns, policymakers can:
+
+- Diversify supply sources  
+- Invest in domestic processing  
+- Build strategic reserves  
+
+This dashboard provides the data foundation needed to inform **U.S. critical mineral supply chain strategy**.
+
+""")
+
 
     #st.image("landing_image.png", use_column_width=True)  # Optional banner
 
@@ -571,14 +697,18 @@ elif st.session_state.page == "Dashboard":
     # -------------------------------
     # DATA PREVIEW
     # -------------------------------
+    df_download = data.copy()
+    df_preview = df_download.head(50)
+    styled = df_preview.style.format({col: "{:}" for col in df_preview.select_dtypes(include="number").columns})
+
     st.markdown("---")
     st.subheader("📊 Filtered Data Preview")
-    st.dataframe(data.head(50))
+    st.dataframe(styled)
 
     # -------------------------------
     # DOWNLOAD BUTTON
     # -------------------------------
-    csv = data.to_csv(index=False).encode("utf-8")
+    csv = df_download.to_csv(index=False).encode("utf-8")
     st.download_button(
         label="💾 Download Filtered Data as CSV",
         data=csv,
