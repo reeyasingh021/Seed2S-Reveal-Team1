@@ -176,17 +176,12 @@ If you want to run the dashboard on your local machine:
 pip install -r requirements.txt
 ```
 
-2. **Navigate to dashboard directory**
-```bash
-cd dashboard
-```
-
-3. **Launch Streamlit app**
+2. **Launch Streamlit app from the root directory**
 ```bash
 streamlit run app.py
 ```
 
-4. **Access in browser**: The app will automatically open at `http://localhost:8501`
+3. **Access in browser**: The app will automatically open at `http://localhost:8501`
 
 ---
 
@@ -231,15 +226,13 @@ Built with **Pydeck**, the map visualization:
 
 ### Dashboard Code Structure
 
-#### `app.py` - Main Application
-```python
-# Core structure:
-# 1. Load and cache data
-# 2. Render sidebar filters
-# 3. Apply user selections
-# 4. Generate filtered visualizations
-# 5. Display summary statistics
-```
+#### `app.py` - Complete Streamlit Application
+The main application file contains:
+- Data loading and caching functions
+- Sidebar filter interface (year range, region, commodity type, mineral selector)
+- Dynamic filtering logic based on user selections
+- All visualization generation (temporal charts, geographic maps, composition breakdowns, heatmaps)
+- Summary statistics calculations and display
 
 **Key Libraries**:
 - `streamlit`: Web application framework
@@ -248,18 +241,10 @@ Built with **Pydeck**, the map visualization:
 - `pydeck`: Geospatial visualization
 - `matplotlib`: Static plots
 
-#### `visualizations.py` - Chart Generation
-Contains modular functions for each visualization type:
-- `create_temporal_chart()`
-- `create_commodity_breakdown()`
-- `create_country_map()`
-- `create_heatmap()`
-
-#### `config.py` - Configuration
-- Country coordinates dictionary
-- Color schemes
-- Default filter values
-- Map styling parameters
+**Data Sources Used**:
+- `merged_filtered_classified.csv`: Primary analysis dataset
+- `east_countries.csv`: East Asia country list
+- `southeast_countries.csv`: Southeast Asia country list
 
 ---
 
@@ -324,17 +309,32 @@ This analysis reveals critical vulnerabilities in U.S. critical mineral supply c
 
 ## 📚 References & Resources
 
-1. **International Energy Agency** - Global Critical Minerals Outlook 2025  
+1. **International Energy Agency** (2025). Global Critical Minerals Outlook 2025.  
    https://www.iea.org/reports/global-critical-minerals-outlook-2025
 
-2. **U.S. Department of Interior** - 2025 List of Critical Minerals  
+2. **U.S. Department of Interior** (2025, November 7). Interior Department releases final 2025 List of Critical Minerals.  
    https://www.doi.gov/pressreleases/interior-department-releases-final-2025-list-critical-minerals
 
-3. **U.S. Census Bureau** - USA Trade Online  
+3. **Lasley, S.** (2024, September 16). Unlocking America's critical minerals. *North of 60 Mining News*.  
+   https://www.miningnewsnorth.com/story/2024/09/19/critical-minerals-alliances-2024/unlocking-americas-critical-minerals/8694.html
+
+4. **U.S. Department of Energy** (2022, February 14). FOTW #1225, February 14, 2022: From 2016-2019, over 90% of U.S. lithium imports came from Argentina and Chile.  
+   https://www.energy.gov/eere/vehicles/articles/fotw-1225-february-14-2022-2016-2019-over-90-us-lithium-imports-came
+
+5. **Vivoda, V., Matthews, R., & Andresen, J.** (2025). Securing defense critical minerals: Challenges and U.S. strategic responses in an evolving geopolitical landscape. *Comparative Strategy*, 44(2), 281–315.  
+   https://doi.org/10.1080/01495933.2025.2456427
+
+6. **U.S. Census Bureau**. USA Trade Online.  
    https://usatrade.census.gov/
 
-4. **U.S. Department of Energy** - Critical Minerals and Materials  
+7. **U.S. Department of Energy**. Critical Minerals and Materials.  
    https://www.energy.gov/policy/critical-minerals-and-materials
+
+8. **International Renewable Energy Agency** (2023). Geopolitics of the Energy Transition: Critical Materials.  
+   https://www.irena.org/Digital-Report/Geopolitics-of-the-Energy-Transition-Critical-Materials
+
+9. **International Energy Agency** (2024). Global EV Outlook 2024.  
+   https://www.iea.org/reports/global-ev-outlook-2024
 
 ---
 
