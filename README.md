@@ -19,30 +19,31 @@ This project examines U.S. critical mineral import patterns from East and Southe
 ## 🗂️ Repository Structure
 
 ```
-├── data/
-│   ├── raw/                          # Raw CSV files from USA Trade Online
-│   │   ├── segment_1.csv
-│   │   ├── segment_2.csv
-│   │   └── segment_3.csv
-│   ├── processed/
-│   │   └── cleaned_trade_data.csv    # Cleaned and categorized dataset
-│   └── mappings/
-│       ├── country_regions.csv       # Regional classification of countries
-│       └── hs_code_minerals.csv      # HS code to mineral type mapping
+├── venv/                              # Python virtual environment (not tracked)
+│   ├── Lib/
+│   ├── Scripts/
+│   └── share/
 │
-├── scripts/
-│   ├── data_cleaning.py              # Data preparation and cleaning
-│   ├── data_analysis.py              # Exploratory data analysis
-│   └── utils.py                      # Helper functions
+├── data1.csv                          # Raw trade data segment 1
+├── data2.csv                          # Raw trade data segment 2
+├── data3.csv                          # Raw trade data segment 3
+├── east_countries.csv                 # East Asia country classification
+├── southeast_countries.csv            # Southeast Asia country classification
 │
-├── dashboard/
-│   ├── app.py                        # Main Streamlit dashboard application
-│   ├── visualizations.py             # Chart and map generation functions
-│   └── config.py                     # Dashboard configuration settings
+├── hs2digit_data.csv                  # Trade data by 2-digit HS codes
+├── hs4digit_data.csv                  # Trade data by 4-digit HS codes
+├── hs6digit_data.csv                  # Trade data by 6-digit HS codes
+│
+├── merged_data.csv                    # Combined raw data from all segments
+├── merged_filtered.csv                # Filtered dataset (countries only)
+├── merged_filtered_classified.csv     # Final classified dataset with categories
+│
+├── app.py                             # Streamlit dashboard application
+├── main.py                            # Data processing and analysis script
 │
 ├── requirements.txt                   # Python dependencies
-├── README.md                          # This file
-└── whitepaper.pdf                     # Full project white paper
+├── .gitignore                         # Git ignore file
+└── README.md                          # This file
 ```
 
 ---
@@ -106,76 +107,53 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### Script 1: `data_cleaning.py`
+### Main Processing Script: `main.py`
 
-**Purpose**: Merge raw data segments, standardize commodity names, categorize processing stages, and output cleaned dataset.
+**Purpose**: Complete data pipeline from raw trade data to classified, analysis-ready dataset.
 
-**Key Functions**:
-- `merge_segments()`: Combines three raw CSV files into unified dataset
-- `classify_commodity_type()`: Categorizes commodities into processing stages:
-  - **Ore/Raw**: Unprocessed minerals and concentrates
-  - **Compound**: Chemical forms (oxides, hydroxides)
-  - **Refined/Articles**: Processed metals and manufactured products
-  - **Advanced Product**: Batteries, magnets, high-tech components
-- `standardize_names()`: Cleans whitespace and formatting inconsistencies
-- `validate_data()`: Checks for missing values and duplicates
+**Data Processing Workflow**:
 
-**Usage**:
-```bash
-python scripts/data_cleaning.py
-```
+1. **Merge Raw Data Segments**
+   - Combines `data1.csv`, `data2.csv`, and `data3.csv`
+   - Output: `merged_data.csv`
 
-**Input**: `data/raw/segment_*.csv`  
-**Output**: `data/processed/cleaned_trade_data.csv`
+2. **Filter Regional Countries**
+   - Removes aggregate trade groups (ASEAN, APEC)
+   - Filters to 16 target countries using `east_countries.csv` and `southeast_countries.csv`
+   - Output: `merged_filtered.csv`
 
-**Expected Runtime**: 2-5 minutes depending on dataset size
+3. **Classify Commodity Types**
+   - Categorizes each commodity into processing stages:
+     - **Ore/Raw**: Unprocessed minerals and concentrates
+     - **Compound**: Chemical forms (oxides, hydroxides)
+     - **Refined/Articles**: Processed metals and manufactured products
+     - **Advanced Product**: Batteries, magnets, high-tech components
+   - Extracts HS codes from commodity descriptions
+   - Maps HS codes to critical mineral categories
+   - Output: `merged_filtered_classified.csv`
 
----
-
-### Script 2: `data_analysis.py`
-
-**Purpose**: Exploratory data analysis generating summary statistics and preliminary visualizations.
-
-**Key Functions**:
-- `temporal_analysis()`: Calculates year-over-year growth rates and trends
-- `country_concentration()`: Measures geographic concentration using top-N suppliers
-- `commodity_composition()`: Breaks down imports by mineral type and processing stage
-- `generate_heatmaps()`: Creates cross-country import value matrices
-- `export_summary_stats()`: Produces CSV summaries for key metrics
+4. **Generate HS Code Aggregations**
+   - Creates summary datasets by HS code level:
+     - `hs2digit_data.csv`: 2-digit HS code aggregation
+     - `hs4digit_data.csv`: 4-digit HS code aggregation
+     - `hs6digit_data.csv`: 6-digit HS code aggregation
 
 **Usage**:
 ```bash
-python scripts/data_analysis.py
+python main.py
 ```
 
-**Outputs**:
-- Summary statistics printed to console
-- Static visualizations saved to `outputs/figures/`
-- Summary CSV files in `outputs/tables/`
+**Input Files**: 
+- `data1.csv`, `data2.csv`, `data3.csv` (raw trade data)
+- `east_countries.csv`, `southeast_countries.csv` (country filters)
 
-**Key Insights Generated**:
-- Top importing countries by value
-- Mineral composition breakdown
-- Processing stage distribution
-- Annual import trends
+**Output Files**: 
+- `merged_data.csv` (combined raw data)
+- `merged_filtered.csv` (country-filtered data)
+- `merged_filtered_classified.csv` (final classified dataset)
+- `hs2digit_data.csv`, `hs4digit_data.csv`, `hs6digit_data.csv` (HS aggregations)
 
----
-
-### Script 3: `utils.py`
-
-**Purpose**: Shared utility functions for data processing and visualization.
-
-**Key Functions**:
-- `load_data()`: Standardized data loading with error handling
-- `filter_by_year_range()`: Temporal filtering helper
-- `calculate_concentration_index()`: Computes HHI and other concentration metrics
-- `format_currency()`: Consistent monetary value formatting
-- `get_country_coordinates()`: Returns lat/lon for mapping
-
-**Usage**: Import functions as needed in other scripts
-```python
-from utils import load_data, filter_by_year_range
-```
+**Expected Runtime**: 3-7 minutes depending on dataset size
 
 ---
 
